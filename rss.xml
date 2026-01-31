@@ -3,7 +3,12 @@
   <channel>
     <title>Signal</title>
     <description>Read-only</description>
-
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
+  <guid>variant-2026-01-31</guid>
+</item>
     <!-- BLOK 2 (INVARIANT, ENIGE PUBLIEKE OUTPUT) -->
     <item>
       <title>Blok 2</title>
