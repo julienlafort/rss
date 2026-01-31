@@ -4,6 +4,15 @@
     <title>Signal</title>
     <description>Read-only</description>
 
+    <!-- BLOK 2 (INVARIANT, ENIGE PUBLIEKE OUTPUT) -->
+    <item>
+      <title>Blok 2</title>
+      <description>STABIEL</description>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <guid>blok2-2026-01-31</guid>
+    </item>
+
+    <!-- INITIËLE PLAATSHOUDER (MAG BLIJVEN) -->
     <item>
       <title>INIT</title>
       <description>STIL</description>
