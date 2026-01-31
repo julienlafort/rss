@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Signal</title>
+    <description>Read-only</description>
+
+    <item>
+      <title>INIT</title>
+      <description>STIL</description>
+      <pubDate>Fri, 30 Jan 2026 10:00:00 GMT</pubDate>
+      <guid>init</guid>
+    </item>
+
+  </channel>
+</rss>
