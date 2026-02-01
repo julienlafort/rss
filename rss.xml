@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
+
     <title>Signal</title>
     <description>Read-only</description>
+    <!-- BLOK 2 — VARIANT (EXTERN) -->
 <item>
   <title>VARIANT</title>
   <description>EXTERN</description>
   <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
-  <guid>variant-2026-01-31</guid>
+  <guid>variant-extern-0002</guid>
 </item>
-    <!-- BLOK 2 (INVARIANT, ENIGE PUBLIEKE OUTPUT) -->
+    
+    <!-- ABSOLUTE REFERENTIE -->
     <item>
-      <title>Blok 2</title>
+      <title>INVARIANT</title>
+      <description>VERLICHTING</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>invariant-0001</guid>
+    </item>
+
+    <!-- CONTEXTUELE OBSERVATIE -->
+    <item>
+      <title>VARIANT</title>
+      <description>EXTERN</description>
+      <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
+      <guid>variant-2026-01-31</guid>
+    </item>
+
+    <!-- AFGELEIDE PUBLIEKE OUTPUT -->
+    <item>
+      <title>INVARIANT</title>
       <description>STABIEL</description>
       <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
-      <guid>blok2-2026-01-31</guid>
+      <guid>invariant-0003</guid>
     </item>
 
     <!-- INITIËLE PLAATSHOUDER (MAG BLIJVEN) -->
