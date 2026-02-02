@@ -3,30 +3,14 @@
   <channel>
 
     <title>Signal</title>
-    <description>Read-only</description>
+    <description>Read-only. No action.</description>
 
-    <!-- BLOK 1 — INVARIANT -->
+    <!-- BLOK 5 — INVARIANT -->
     <item>
       <title>INVARIANT</title>
       <description>STABIEL</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>invariant-0001</guid>
-    </item>
-
-    <!-- BLOK 2 — VARIANT -->
-    <item>
-      <title>VARIANT</title>
-      <description>EXTERN</description>
-      <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
-      <guid>variant-0002</guid>
-    </item>
-
-    <!-- BLOK 3 — INVARIANT -->
-    <item>
-      <title>INVARIANT</title>
-      <description>STABIEL</description>
-      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
-      <guid>invariant-0003</guid>
+      <pubDate>Sat, 31 Jan 2026 14:00:00 GMT</pubDate>
+      <guid>invariant-0005</guid>
     </item>
 
     <!-- BLOK 4 — VARIANT -->
@@ -37,12 +21,28 @@
       <guid>variant-0004</guid>
     </item>
 
-    <!-- BLOK 5 — INIT -->
+    <!-- BLOK 3 — INVARIANT -->
+    <item>
+      <title>INVARIANT</title>
+      <description>STABIEL</description>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <guid>invariant-0003</guid>
+    </item>
+
+    <!-- BLOK 2 — VARIANT -->
+    <item>
+      <title>VARIANT</title>
+      <description>EXTERN</description>
+      <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
+      <guid>variant-0002</guid>
+    </item>
+
+    <!-- BLOK 1 — INIT (SEED) -->
     <item>
       <title>INIT</title>
       <description>STIL</description>
       <pubDate>Fri, 30 Jan 2026 10:00:00 GMT</pubDate>
-      <guid>init-0005</guid>
+      <guid>init-0001</guid>
     </item>
 
   </channel>
