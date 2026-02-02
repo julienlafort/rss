@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
+    <item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>Sat, 31 Jan 2026 12:20:00 GMT</pubDate>
+  <guid>variant-0002</guid>
+</item>
 
     <title>Signal</title>
     <description>Read-only</description>
