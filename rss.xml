@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <item>
-  <title>VARIANT</title>
-  <description>EXTERN</description>
-  <pubDate>Sat, 31 Jan 2026 12:20:00 GMT</pubDate>
-  <guid>variant-0002</guid>
-</item>
 
     <title>Signal</title>
     <description>Read-only</description>
-    <!-- BLOK 2 — VARIANT (EXTERN) -->
-<item>
-  <title>VARIANT</title>
-  <description>EXTERN</description>
-  <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
-  <guid>variant-extern-0002</guid>
-</item>
-    
-    <!-- ABSOLUTE REFERENTIE -->
+
+    <!-- BLOK 1 — INVARIANT -->
     <item>
       <title>INVARIANT</title>
       <description>STABIEL</description>
@@ -26,15 +13,15 @@
       <guid>invariant-0001</guid>
     </item>
 
-    <!-- CONTEXTUELE OBSERVATIE -->
+    <!-- BLOK 2 — VARIANT -->
     <item>
       <title>VARIANT</title>
       <description>EXTERN</description>
       <pubDate>Sat, 31 Jan 2026 12:10:00 GMT</pubDate>
-      <guid>variant-2026-01-31</guid>
+      <guid>variant-0002</guid>
     </item>
 
-    <!-- AFGELEIDE PUBLIEKE OUTPUT -->
+    <!-- BLOK 3 — INVARIANT -->
     <item>
       <title>INVARIANT</title>
       <description>STABIEL</description>
@@ -42,12 +29,20 @@
       <guid>invariant-0003</guid>
     </item>
 
-    <!-- INITIËLE PLAATSHOUDER (MAG BLIJVEN) -->
+    <!-- BLOK 4 — VARIANT -->
+    <item>
+      <title>VARIANT</title>
+      <description>EXTERN</description>
+      <pubDate>Sat, 31 Jan 2026 13:00:00 GMT</pubDate>
+      <guid>variant-0004</guid>
+    </item>
+
+    <!-- BLOK 5 — INIT -->
     <item>
       <title>INIT</title>
       <description>STIL</description>
       <pubDate>Fri, 30 Jan 2026 10:00:00 GMT</pubDate>
-      <guid>init</guid>
+      <guid>init-0005</guid>
     </item>
 
   </channel>
