@@ -5,6 +5,14 @@
     <title>Signal - 3.0</title>
     <description>Read-only. No action.</description>
 
+    <!-- 12 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>Sat, 31 Jan 2026 17:00:00 GMT</pubDate>
+  <guid>variant-0012</guid>
+</item>
+
     <!-- 11 -->
     <item>
       <title>INVARIANT</title>
