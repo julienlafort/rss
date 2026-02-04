@@ -5,6 +5,30 @@
     <title>Signal - 3.0</title>
     <description>Read-only. No action.</description>
 
+    <!-- 30 -->
+<item>
+  <title>INVARIANT</title>
+  <description>STABIEL</description>
+  <pubDate>Wed, 04 Feb 2026 17:35:00 GMT</pubDate>
+  <guid>invariant-0030</guid>
+</item>
+
+    <!-- 29 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>Wed, 04 Feb 2026 17:34:00 GMT</pubDate>
+  <guid>variant-0029</guid>
+</item>
+
+    <!-- 28 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>Tue, 04 Feb 2026 17:32:00 GMT</pubDate>
+  <guid>variant-0028</guid>
+</item>
+
     <!-- 27 -->
 <item>
   <title>VARIANT</title>
