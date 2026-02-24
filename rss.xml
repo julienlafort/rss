@@ -2,6 +2,38 @@
 <rss version="2.0">
   <channel>
 
+    <!-- 98 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>24 Feb 2024 09:18:00 GMT</pubDate>
+  <guid>variant-0098</guid>
+</item>
+
+    <!-- 97 -->
+<item>
+  <title>INVARIANT</title>
+  <description>STABIEL</description>
+  <pubDate>24 Feb 2026 00:00:00 GMT</pubDate>
+  <guid>invariant-0097</guid>
+</item>
+
+    <!-- 96 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>24 Feb 2026 11:50:00 GMT</pubDate>
+  <guid>variant-0096</guid>
+</item>
+
+    <!-- 95 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>24 Feb 2026 09:35:00 GMT</pubDate>
+  <guid>variant-0095</guid>
+</item>
+
     <!-- 94 -->
 <item>
   <title>INVARIANT</title>
