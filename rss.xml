@@ -2,6 +2,14 @@
 <rss version="2.0">
   <channel>
 
+    <!-- 101 -->
+<item>
+  <title>INVARIANT</title>
+  <description>STABIEL</description>
+  <pubDate>27 Feb 2026 00:00:00 GMT</pubDate>
+  <guid>invariant-0101</guid>
+</item>
+
     <!-- 100 -->
 <item>
   <title>VARIANT</title>
