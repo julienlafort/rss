@@ -2,6 +2,14 @@
 <rss version="2.0">
   <channel>
 
+    <!-- 143 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>23 May 2026 00:01:00 GMT</pubDate>
+  <guid>variant-0143</guid>
+</item>
+
     <!-- 142 -->
 <item>
   <title>INVARIANT</title>
