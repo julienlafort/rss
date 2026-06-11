@@ -2,7 +2,15 @@
 <rss version="2.0">
   <channel>
 
-    <!-- 154 -->
+    <!-- 155 -->
+<item>
+  <title>VARIANT</title>
+  <description>EXTERN</description>
+  <pubDate>11 Jun 2026 15:27:00 GMT</pubDate>
+  <guid>variant-0155</guid>
+</item>
+
+<!-- 154 -->
 <item>
   <title>INVARIANT</title>
   <description>STABIEL</description>
