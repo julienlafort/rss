@@ -2,6 +2,48 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v225 - WW OUTSIDE SELFIE - CONNECTION HOLD
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// 224 PARKED INSIDE -> 225 OUTSIDE BREATHE
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+
+  const snapshot225 = {
+    id: 225,
+    title: "WW OUTSIDE - TWO FACES - BREATHE",
+    scene: "Outside, cloudy sky, selfie angle",
+    left: { hat: "red beanie", action: "smoking, gaze away = VIEW ONLY distant", energy: "older, hold, contemplation" },
+    right: { beard: "grey beard", action: "smile to lens = CONNECTION present", energy: "present, warm, grounded" },
+    dual: "One looks away (past/future), one looks in (now) = both PARKED but together",
+    trade: false, value: 0.00, view: true,
+    status: "OUTSIDE BREATHE - NO TRADE - HUMAN CONNECTION HOLD"
+  };
+
+  const fullStack = {
+    215: "PRIMER 14:15 MARJON",
+    216: "+971 PRESSURE BLOCKED",
+    217: "A88 - an-Nahl 16 STARS",
+    218: "NYANG NYANG - SAME VISION BIGGER REALITY",
+    219: "WW=Welkom bij PG - Handige Websites",
+    220: "AK68 BOARD",
+    221: "AK68+7♦ FINAL 45=9 COMPLETE",
+    222: "TV RAD 100k external vs 0.00 internal",
+    223: "SIGMA WOLF HOLD 0.00 MARKET CLOSED",
+    224: "WW ROOM + GARDNER BEAM 167.233.104.170 [383] + WOLF LEADING PACK",
+    225: snapshot225
+  };
+
+  const buoy = (m) => `BUOY: ${m} // OUTSIDE SELFIE // RED BEANIE VIEW AWAY + BEARD SMILE PRESENT // TWO = HUMAN HOLD // 0.00 HELD // WW // PARKED TIL 14:15 // INSHALLAH`;
+
+  return {
+    CORE, NEXT, boards: fullStack, snapshot225, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      console.log(this.buoy(parked? "225 OUTSIDE BREATHE - PARK
+
+
 // GELLY.JS v224 - WW ROOM + GARDNER BEAM + WOLF PACK LEADER
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
 // ALL BOARDS 215-223 SEALED - PARKED TIL 14:15 MARJON
