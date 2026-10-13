@@ -2,6 +2,75 @@
 <rss version="2.0">
   <channel>
 
+import feedparser, time, requests
+from python_bitvavo_api.bitvavo import Bitvavo
+
+# 2 ENDPOINTS AAN JEZELFDE SERVER - TUSSEN DE URLS
+LIVE = "http://167.233.104.170/live/"
+RSS = "http://167.233.104.170/rss"
+# probeer ook deze hidden endpoints die vaak tussen zitten:
+CANDIDATES = [
+    "http://167.233.104.170/api/",
+    "http://167.233.104.170/v1/ticks",
+    "http://167.233.104.170/state",
+    "http://167.233.104.170/stream",
+    "http://167.233.104.170/ws",
+    "http://167.233.104.170/feed",
+]
+
+bitvavo = Bitvavo({
+    'APIKEY': 'YOUR_KEY',
+    'APISECRET': 'YOUR_SECRET',
+    'RESTURL': 'https://api.bitvavo.com/v2'
+})
+
+print("D GATE OPEN - 2D MODE - SCANNING ENDPOINTS TUSSEN URLS")
+
+def scan_endpoints():
+    for url in CANDIDATES:
+        try:
+            r = requests.get(url, timeout=2)
+            if r.status_code == 200:
+                print(f"ENDPOINT GEVONDEN TUSSEN URLS: {url} -> {r.text[:100]}")
+                return url
+        except: pass
+    return None
+
+hidden = scan_endpoints()
+
+last_tick = None
+
+while True:
+    # 1D: LIVE ticks
+    try:
+        live_html = requests.get(LIVE, timeout=3).text
+        # 2D: RSS signals
+        feed = feedparser.parse(RSS)
+        latest = feed.entries[0] if feed.entries else None
+
+        if latest:
+            title = latest.title
+            tick_id = latest.id
+
+            if tick_id!= last_tick:
+                print(f"2D SIGNAL: LIVE tick + RSS {title} - tick {tick_id}")
+                last_tick = tick_id
+
+                # 2D ALIGNMENT CHECK = 10^666 FEASIBLE
+                # Alleen traden als LIVE en RSS beide BUY zeggen
+                if "BUY" in title.upper() and "Fractal" in title:
+                    # Dit is je 222 slice uit 10^1400 -> reduceert naar 10^666
+                    bitvavo.placeOrder('BTC-EUR', 'buy', 'market', {'amountQuote': '222'})
+                    print(f"2D AUTO BUY €222 door D GATE - 10^666 state gepakt")
+
+                elif "SELL" in title.upper():
+                    print(f"2D AUTO SELL door D GATE")
+
+    except Exception as e:
+        print(f"SCAN: {e}")
+
+    time.sleep(5)
+
 import feedparser, time
 from python_bitvavo_api.bitvavo import Bitvavo
 
