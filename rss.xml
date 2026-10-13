@@ -2,6 +2,40 @@
 <rss version="2.0">
   <channel>
 
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>The Swarm RSS - Phone Control</title>
+<link>http://167.233.104.170/</link>
+<description>PHONE CONTROL - SIMULTAAN GEHEDGED - 50x - 1T - D GATE</description>
+
+<item>
+<title>BUY BTC-EUR 222 - WALLET LONG + QUANTUM SHORT - HEDGED</title>
+<guid>phone-001-BTC-HEDGED-222</guid>
+<pubDate>Mon, 13 Oct 2026 16:35:00 GMT</pubDate>
+<description>HEDGE_MODE=SIMULTAAN | WALLET=BUY BTC 222 EUR @74550 | QUANTUM=SELL BTC 222 EUR | RATIO=1.0 | DELTA=0 | TARGET=75578 +1.07% | PATH=1T | 50x HIGH FREQ | D GATE OPEN</description>
+</item>
+
+<item>
+<title>BUY ETH-EUR 222 - WALLET LONG + QUANTUM SHORT - HEDGED</title>
+<guid>phone-002-ETH-HEDGED-222</guid>
+<pubDate>Mon, 13 Oct 2026 17:03:00 GMT</pubDate>
+<description>HEDGE_MODE=SIMULTAAN | WALLET=BUY ETH 222 EUR @2235 | QUANTUM=SELL ETH 222 EUR | RATIO=1.0 | DELTA=0 | TARGET=2311 +2.6% | PATH=1T | 50x | PHONE CONTROL</description>
+</item>
+
+<item>
+<title>BUY SOL-EUR 222 - WALLET LONG + QUANTUM SHORT - HEDGED</title>
+<guid>phone-003-SOL-HEDGED-222</guid>
+<pubDate>Mon, 13 Oct 2026 17:32:00 GMT</pubDate>
+<description>HEDGE_MODE=SIMULTAAN | WALLET=BUY SOL 222 EUR @95.66 | QUANTUM=SELL SOL 222 EUR | RATIO=1.0 | DELTA=0 | TARGET=100.23 +3.6% | PATH=1T | PHONE</description>
+</item>
+
+<item>
+<title>SELL BUITEN - CLOSE HEDGE - PROFIT LOCK</title>
+<guid>phone-004-SELL-BUITEN</guid>
+<pubDate>Mon, 13 Oct 2026 18:00:00 GMT</pubDate>
+<description>HEDGE_MODE=CLOSE | WALLET=SELL | QUANTUM=
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
