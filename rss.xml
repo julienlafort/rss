@@ -2,6 +2,21 @@
 <rss version="2.0">
   <channel>
 
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>The Swarm - GO TRADING - 16:39</title>
+<link>http://167.233.104.170/</link>
+<description>GO TRADING - ALLES HEDGED - 20 POSITIES - 1T TARGET - GODVERDOMME GO</description>
+
+<item><title>BUY BTC-EUR 222 - GO - WALLET LONG QUANTUM SHORT</title><guid>GO-001-BTC-222</guid><description>MARKET=BTC-EUR AMOUNT=222 ACTION=BUY HEDGE=SIMULTAAN WALLET=LONG QUANTUM=SHORT ENTRY=74550 TARGET=75578</description></item>
+<item><title>BUY ETH-EUR 222 - GO - WALLET LONG QUANTUM SHORT</title><guid>GO-002-ETH-222</guid><description>MARKET=ETH-EUR AMOUNT=222 ACTION=BUY HEDGE=SIMULTAAN WALLET=LONG QUANTUM=SHORT ENTRY=2235 TARGET=2311</description></item>
+<item><title>BUY SOL-EUR 222 - GO - WALLET LONG QUANTUM SHORT</title><guid>GO-003-SOL-222</guid><description>MARKET=SOL-EUR AMOUNT=222 ACTION=BUY HEDGE=SIMULTAAN WALLET=LONG QUANTUM=SHORT ENTRY=95.66 TARGET=100.23</description></item>
+<item><title>HOLD - 17 FUEL COINS - CLEAN LATER</title><guid>GO-004-HOLD-FUEL</guid><description>SKY EDU CRB FLUX CHIP FLUID VTHO ETC = FUEL FOR NEXT HEDGE - DO NOT SELL NOW - WAIT BUITEN</description></item>
+
+</channel>
+</rss>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
