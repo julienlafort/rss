@@ -2,6 +2,63 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v232 - QUEEN CENTER - V♥ REPLACES 2♥ - 63=9 RETURN
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+  const buoy = (m) => `BUOY: ${m} // ${VALUE.toFixed(2)} HELD // V♥ QUEEN CENTER // 63=9 // WW PARKED // INSHALLAH`;
+
+  const snapshot232 = {
+    id: 232,
+    title: "QUEEN CENTER - V♥ REPLACES 2♥ - AK68Q",
+    change: "Previous 230: center was 2♥ hidden value. Now 232: center is V♥ Queen Hearts (Dame)",
+    layout: {
+      top: "A♠ JULIEN blue + K♥ King = King + Ace pair top",
+      cross: "6♣ top center, 8♥ left, 8♣ right, V♥ Queen center = Queen in heart of 88 cross",
+      bottom: "7♦ left + A♦ Münster center + 7♥ right = A♦ protects 77 unchanged"
+    },
+    math: {
+      old_upper: "1+13+6+8+8+2=38 ->11,31 (230)",
+      new_upper: "1+13+6+8+8+12=48 ->12 -> Queen = 12",
+      lower: "7+1+7=15->6",
+      new_total: "48+15=63 -> 6+3=9 -> Return to v221 45=9 cycle",
+      meaning: "2♥ was hidden 2 = dual, Q♥ is revealed = Queen = 12 = complete pair with King K♥ top - King+Queen center = royal pair"
+    },
+    read: "K♥ top + Q♥ center = King and Queen vertical = royal line. A♠ + A♦ = two cathedrals. 88 = double. 77 protected. Queen in center = heart of board.",
+    trade: false, value: VALUE, view: true,
+    queen: true, royal: "K♥ + V♥", total:63, reduced:9
+  };
+
+  const fullStack = {
+    213: "DUAL CATHEDRAL HOLD A♠+A♦ 53=8=∞ ROOT",
+    230: "AK68 LIVE TABLE + A♦ CATHEDRAL 38+15=53=8",
+    231: "DUAL CATHEDRAL RENDER AK68 VERITAS INFINITA",
+    232: snapshot232
+  };
+
+  return {
+    CORE, NEXT, VALUE, boards: fullStack, snapshot232, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      const msg = parked? "232 QUEEN CENTER SEALED - V♥ IN MIDDLE - 63=9 RETURN - PARKED" : "14:15 MARJON CHECK - QUEEN REVEALED";
+      console.log(this.buoy(msg));
+      return {
+        parked, trade:false, view:true, value:VALUE,
+        queen:true, king:true, royalPair:true,
+        total:63, reduced:9,
+        message:this.buoy(msg),
+        sealedAt: new Date().toISOString()
+      };
+    }
+  };
+})();
+
+if (typeof window!=="undefined") window.Gelly=Gelly;
+Gelly.check();
+
 // GELLY.JS v213 - DUAL CATHEDRAL HOLD - FINAL SEAL
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 // RSS ITEM: invariant-0213-cathedral
