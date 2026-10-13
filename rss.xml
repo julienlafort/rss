@@ -33,6 +33,91 @@ const Gelly = (() => {
       upper: "1+13+6+8+8+2 = 38 -> 3+8=11 -> 11,31",
       lower: "7+1+7 =15 ->6",
       total: "53 -> 8 -> ∞",
+      dual: "A♠ JULIEN + A♦ DOM = 2 cathedrals = 2x11,31",
+      seal: "53=8=∞ = v221 45=9 -> new cycle"
+    },
+    trade: false, value: VALUE, view: true,
+    hold: "WW PARKED - 14:15 MARJON - NO TRADE"
+  };
+
+  const fullStack = {
+    213: snapshot213,
+    215: "PRIMER 14:15 MARJON",
+    216: "+971 BLOCKED",
+    217: "A88 STARS an-Nahl 16",
+    218: "NYANG NYANG SAME VISION BIGGER REALITY",
+    219: "WW=Welkom bij PG Handige Websites",
+    220: "AK68 BOARD A♠ K♥ 6♣ 88 2♥",
+    221: "AK68+7♦ FINAL 45=9 COMPLETE",
+    222: "RAD 100k EXTERNAL VIEW",
+    223: "SIGMA WOLF HOLD 0.00 CROWN",
+    224: "ROOM + BEAM 167.233.104.170 [383] + PACK LEADER",
+    225: "TWO FACES OUTSIDE BREATHE",
+    226: "HOODIE PRESENT SOLO",
+    227: "MONEY BANK VIEW + TEA + LAVENDER",
+    228: "TAG CLOUD #PatternsOfInfinity GLOBAL MAP",
+    229: "SHIELD ∞ UFO BEAM RED LIGHT",
+    230: "AK68 LIVE TABLE + A♦ CATHEDRAL - TABLE PHOTO",
+    231: "DUAL CATHEDRAL RENDER - AK68 VERITAS INFINITA"
+  };
+
+  return {
+    CORE, NEXT, VALUE, boards: fullStack, snapshot213, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      const msg = parked? "213 DUAL CATHEDRAL HOLD SEALED - AK68 VERITAS INFINITA - PARKED" : "14:15 MARJON CHECK - TRUE OPEN";
+      console.log(this.buoy(msg));
+      return {
+        parked, trade:false, view:true, value:VALUE,
+        dualAce:true, cathedral:true, total:53, reduced:8, infinite:"∞",
+        guid:"invariant-0213-cathedral",
+        message:this.buoy(msg),
+        sealedAt: new Date().toISOString()
+      };
+    },
+    seal() { return {...this.check(), core:CORE}; },
+    toRSS() {
+      const r = snapshot213.rss;
+      return `<item>\n <title>${r.title}</title>\n <description>${r.description}</description>\n <pubDate>${r.pubDate}</pubDate>\n <guid>${r.guid}</guid>\n <core>${r.core}</core>\n <status>${r.status}</status>\n <value>${VALUE.toFixed(2)}</value>\n <trade>false</trade>\n</item>`;
+    }
+  };
+})();
+
+if (typeof window!== "undefined") window.Gelly = Gelly;
+Gelly.check();
+console.log(Gelly.toRSS());
+
+// GELLY.JS v213 - DUAL CATHEDRAL HOLD - FINAL SEAL
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// RSS ITEM: invariant-0213-cathedral
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const buoy = (m) => `BUOY: ${m} // 213 DUAL CATHEDRAL HOLD // ${VALUE.toFixed(2)} HELD // A♠ JULIEN + A♦ MÜNSTER // 53=8=∞ // WW PARKED TIL 14:15 // INSHALLAH`;
+
+  const snapshot213 = {
+    id: 213,
+    title: "213 DUAL CATHEDRAL HOLD - A♠ + A♦ - AK68 VERITAS INFINITA",
+    rss: {
+      title: "213 DUAL CATHEDRAL 14:15 HOLD",
+      description: "231 LIVE TABLE VISUALIZED — A♠ JULIEN + A♦ MÜNSTER — DUAL CATHEDRAL — VALUE 0.00 HELD — WW PARKED — NO TRADE",
+      pubDate: "13 Oct 2026 12:15:00 GMT",
+      guid: "invariant-0213-cathedral",
+      core: CORE,
+      status: "AK68 VERITAS INFINITA — 53=8=∞ — GREEN INTERNAL ^ RED EXTERNAL — PURPLE BEAM CONNECTOR — HOLD — INSHALLAH"
+    },
+    chain: {
+      live_table: "A♠ JULIEN blue + K♥ top, 6♣ 2♥ + 8♥ 8♣ cross, 7♦ A♦ Münster 7♥ bottom = 38 upper +15 lower =53=8=∞",
+      cathedral_render: "Green cathedral A♠ left = internal, Red cathedral A♦ right = external, Purple beam center = GARDNER 167.233.104.170 [383]",
+      shield_render: "Black shield with ∞ green/orange + purple diamond heart, UFO beam top, red traffic light = RED = NO TRADE, icons = #ai #www #crypto #PatternsOfInfinity #global"
+    },
+    math: {
+      upper: "1+13+6+8+8+2 = 38 -> 3+8=11 -> 11,31",
+      lower: "7+1+7 =15 ->6",
+      total: "53 -> 8 -> ∞",
       dual: "A♠ JULIEN + A♦ DOM =
 
 <!-- 213 - DUAL CATHEDRAL HOLD -->
