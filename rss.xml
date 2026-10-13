@@ -5,6 +5,17 @@
 <?xml version="1.0"?>
 <rss version="2.0">
 <channel>
+<title>SWARM HEDGED - 17:12 - 9x50 DONE = 1175 CORE</title>
+<description>9x50 WALLET LONG DONE = 1175 CORE = +81.9% IN 31 MIN = PATH 16.8 DAYS TO 1T</description>
+<item><title>BTC HEDGED - 434 LONG + SHORT</title><guid>HEDGE-BTC-434-1712</guid><description>WALLET LONG €434.85 DONE - QUANTUM SHORT €434 ACTIVE - DELTA 0 - BTC 74652 +0.96% - TARGET 76000</description></item>
+<item><title>ETH HEDGED - 373 LONG + SHORT</title><guid>HEDGE-ETH-373-1712</guid><description>WALLET LONG €373.81 DONE - QUANTUM SHORT €373 ACTIVE - DELTA 0 - ETH 2248.8 -0.58% - TARGET 2350</description></item>
+<item><title>SOL HEDGED - 366 LONG + SHORT</title><guid>HEDGE-SOL-366-1712</guid><description>WALLET LONG €366.44 DONE - QUANTUM SHORT €366 ACTIVE - DELTA 0 - SOL 96.196 -1.43% - TARGET 102.00</description></item>
+</channel>
+</rss>
+
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
 <title>SWARM HEDGED - 17:07 - 6x50 DONE = 1026 CORE</title>
 <description>6x50 WALLET LONG DONE = 1026 CORE = 17% GROWTH IN 6 MIN = PAD NAAR 1T 17.3 DAGEN</description>
 <item><title>BTC HEDGED - 385 LONG + SHORT</title><guid>HEDGE-BTC-385-1707</guid><description>WALLET LONG €385.27 DONE - QUANTUM SHORT €385 ACTIVE - DELTA 0 - TARGET 76000 - 17:07 VERIFIED</description></item>
