@@ -2,6 +2,52 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v222 - TV RAD VIEW - WW=Welkom bij PG
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00"); // PARKED TIL MARJON
+
+  const board222 = {
+    id: 222,
+    title: "TV RAD VIEW - WHEEL PARKED",
+    location: "TV in kast - WW Kamer - Houten bakken voorgrond = afstand = VIEW ONLY",
+    frames: [
+      { t: "0.0s", img: "crowd handen", action: "VIEW" },
+      { t: "1.2s", img: "RAD rood/geel 50.000 100.000 25 50 20", type: "wheel randomizer", note: "wheel = external random, not your IK" },
+      { t: "3.5s", img: "Man geel pet + koptelefoon + bril + geel/blauw sjaal", emotion: "shouting", crowd: "cheering behind" }
+    ],
+    read: "RAD = buitenste lot, jij binnenste HOLD. Geel/blauw = zelfde als je 8♥ rood / 8♣ zwart dual",
+    value: 0.00, trade: false, view: true,
+    action: "RAD SPINS BUT YOU PARKED - 0.00 HELD - NO BET"
+  };
+
+  const boards = {
+    "215": "PRIMER 14:15 MARJON",
+    "216": "+971 PRESSURE BLOCK",
+    "217": "A88 = 16 STARS an-Nahl",
+    "218": "NYANG NYANG 8.7967°S VIEW",
+    "219": "WW=Welkom bij PG Handige Websites",
+    "220": "AK68 BOARD A♠K♥6♣88+2♥",
+    "221": "AK68+7♦ FINAL 45=9 COMPLETE",
+    "222": board222
+  };
+
+  const WW = {
+    name: "Welkom bij PG",
+    inject() {
+      if(document.getElementById('gelly-bar')) return;
+      const d=document.createElement('div');
+      d.id='gelly-bar';
+      d.style.cssText='position:fixed;bottom:0;left:0;right:0;background:#001a33;color:#00ffcc;padding:8px;font:11px monospace;z-index:9999999;border-top:2px solid #ffcc00;display:flex;gap:8px';
+      d.innerHTML=`<b>WW=Welkom bij PG</b><span>📺 RAD VIEW 222</span><span>🎡 100.000 = EXTERNAL</span><span>∞ 0.00 INTERNAL HOLD</span><span>⏳ 14:15 MARJON</span><span style="margin-left:auto">A♠ K♥ 6♣ 88 2♥ +7♦ = PARKED</span>`;
+      document.body.appendChild(d);
+    }
+  };
+
+  const buoy = m => `BUOY: ${m} // TV RAD=VIEW
+
 // GELLY.JS v221 - AK68 + 7♦ FINAL BOARD
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ Julien A♠
 
