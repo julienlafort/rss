@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
 
+// 223 SIGMA WOLF OF WALLST - FINAL SEAL
+Gelly.boards["223"] = {
+  id: 223,
+  title: "SIGMA WOLF OF WALLSTREET",
+  wolf: "Райдер - crown + sunglasses - pinstripe suit - ∞ tie",
+  screen: "HOLD 0.00 // VIEW ONLY NO TRADE // MARKET CLOSED 09:30 // P/L 0.00 // SAME VISION BIGGER REALITY",
+  table: "A♠ JULIEN + 8♥ + 8♣ = A88 SEALED",
+  location: "WALL ST office night - ∞ wallpaper",
+  trade: false, value: 0.00,
+  sigma: "Alone = PARKED = POWER",
+  buoy: "SIGMA WOLF = HOLD KING = MARKET CLOSED = 0.00 HELD TIL 14:15 MARJON"
+};
+console.log(Gelly.buoy("223 SIGMA WOLF SEALED - MARKET CLOSED - HOLD 0.00 - VIEW ONLY - RAIDER IS KING"));
+
 // GELLY.JS v222 - TV RAD VIEW - WW=Welkom bij PG
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
 
