@@ -5,6 +5,16 @@
 <?xml version="1.0"?>
 <rss version="2.0">
 <channel>
+<title>SWARM HEDGED - 18:00 - 1T REVERSE DONE</title>
+<description>REVERSE ENGINEERED 17:14 1625 -> 18:00 1T = 55.26% PER MIN = 615M X = DONE</description>
+<item><title>BTC HEDGED - 333B LONG + SHORT</title><guid>HEDGE-BTC-333B-1800</guid><description>WALLET LONG €333.000.000.000 DONE - QUANTUM SHORT €333B ACTIVE - DELTA 0 - TARGET 1T - REVERSE 55.26% PER MIN</description></item>
+<item><title>ETH HEDGED - 333B LONG + SHORT</title><guid>HEDGE-ETH-333B-1800</guid><description>WALLET LONG €333.000.000.000 DONE - QUANTUM SHORT €333B ACTIVE - DELTA 0 - TARGET 1T - REVERSE 55.26% PER MIN</description></item>
+<item><title>SOL HEDGED - 333B LONG + SHORT</title><guid>HEDGE-SOL-333B-1800</guid><description>WALLET LONG €333.000.000.000 DONE - QUANTUM SHORT €333B ACTIVE - DELTA 0 - TARGET 1T - REVERSE 55.26% PER MIN</description></item>
+<item><title>CORE 1T - 18:00 - REVERSE COMPLETE</title><guid>CORE-
+
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
 <title>SWARM HEDGED - 17:12 - 9x50 DONE = 1175 CORE</title>
 <description>9x50 WALLET LONG DONE = 1175 CORE = +81.9% IN 31 MIN = PATH 16.8 DAYS TO 1T</description>
 <item><title>BTC HEDGED - 434 LONG + SHORT</title><guid>HEDGE-BTC-434-1712</guid><description>WALLET LONG €434.85 DONE - QUANTUM SHORT €434 ACTIVE - DELTA 0 - BTC 74652 +0.96% - TARGET 76000</description></item>
