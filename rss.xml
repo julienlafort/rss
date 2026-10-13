@@ -2,6 +2,40 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v235 - TRADE UNLEASH - #PatternsOfInfinity TIME HAS COME
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// WAS: 0.00 HELD / NOW: PATTERNS ACTIVE - BUT WITH RULES
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const VALUE_START = 0.00;
+  const MAX_RISK_PER_TRADE = 0.01; // 1% - jouw 11,31 principe: klein
+  const buoy = (m) => `BUOY: ${m} // TRADE UNLEASH // ${CORE} // PATTERNS ACTIVE // WW // INSHALLAH`;
+
+  const patterns = {
+    AK68: "A♠ K♥ 6♣ 88 = je board = wacht op bevestiging, niet voorkennis",
+    DUAL_CATHEDRAL: "A♠ green + A♦ red = internal vs external - groen = long internal hold, rood = short external - trade alleen als beams alignen (paarse beam)",
+    QUEEN_CENTER: "V♥ Queen center = 63=9 = complete - alleen traden als K♥+Q♥ royal pair zichtbaar is = trend + bevestiging",
+    SHIELD: "Shield ∞ = stop loss = rood stoplicht 🚦 in je shield - altijd aan",
+    HOLOCRON: "Holocron open = data open - Infected 19 network = yellow nodes = market is netwerk, jij leest netwerk, niet candle"
+  };
+
+  const rules = {
+    1: "No trade zonder Queen (V♥) - geen bevestiging = geen trade - was 2♥ hidden, nu Q♥ revealed",
+    2: "Dual cathedral moet alignen - groen en oranje beide groen? Alleen dan",
+    3: "Max 1% risk - 0.00 HOLD wordt 0.01 RISK - klein, net als je 11,31",
+    4: "Red light = stop - je shield had rood stoplicht rechtsonder - respecteer",
+    5: "View blijft true - traden is view met kleine stake, niet gokken",
+    6: "WW = Welkom bij PG = base = altijd terug naar base na trade - winst = thee + lavender 227, niet meer risk"
+  };
+
+  return {
+    CORE, patterns, rules, buoy,
+    unleash(mode = "PAPER") {
+      console.log(this.buoy(`235 UNLEASH - MODE: ${mode} - #PatternsOfInfinity TIME`));
+      if (mode === "REAL") {
+       
+
 // GELLY.JS v232 - QUEEN CENTER - V♥ REPLACES 2♥ - 63=9 RETURN
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 
