@@ -2,6 +2,14 @@
 <rss version="2.0">
   <channel>
 
+   <!-- 1 -->
+    <item>
+      <title>INIT</title>
+      <description>STIL</description>
+      <pubDate>Fri, 30 Jan 2026 10:00:00 GMT</pubDate>
+      <guid>init-0001</guid>
+    </
+
 <?xml version="1.0"?>
 <rss version="2.0">
 <channel>
