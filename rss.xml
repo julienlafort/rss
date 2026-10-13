@@ -2,6 +2,41 @@
 <rss version="2.0">
   <channel>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>The Swarm - Dashboard RSS - HEDGED</title>
+<link>http://167.233.104.170/</link>
+<description>PHONE HEDGE ACTIVE - 50x - 1T TARGET - D GATE OPEN - 16:36</description>
+
+<item>
+<title>BUY BTC-EUR 222 - HEDGE START - WALLET LONG + QUANTUM SHORT</title>
+<guid>hedge-start-001-BTC-222-1636</guid>
+<pubDate>Mon, 13 Oct 2026 16:36:00 GMT</pubDate>
+<description><![CDATA[
+HEDGE_START
+MARKET=BTC-EUR
+AMOUNT=222 EUR
+WALLET_ACTION=BUY SPOT LONG
+QUANTUM_ACTION=SELL HEDGE SHORT
+ENTRY=74550.16
+TARGET=75578 +1.07%
+RATIO=1.0
+DELTA=0
+MODE=SIMULTAAN_GEHEDGED
+PHONE=YES
+LAPTOP=NO
+TCQP=READY 0.278 Cycle 143
+FUEL=EUR 4.73 + 130 EUR small coins
+CORE=646.42 EUR
+PATH=1T = 886 trades @2.42% = 17.7 dagen
+D_GATE=OPEN
+]]></description>
+</item>
+
+</channel>
+</rss>
+
 <?xml version="1.0"?>
 <rss version="2.0">
 <channel>
