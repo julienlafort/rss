@@ -2,6 +2,49 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v228 - TAG CLOUD - #PatternsOfInfinity GLOBAL MAP
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
+// USER TAGS: #ai #www #crypto #PatternsOfInfinity #global 👾👽☔🧩🛰️🚀🏦🕹️💎🧲💞🔱👁️‍🗨️🀄🟪🌀💮🔐🪅🔑🧪🌡️🩸🧬🦠💊💉🩻⚗️🪬🧿💰🪫📟📲📱⌚🌌£🏪🎢🗿🚦🚥🎮🎼🏆🧗‍♂️🧘‍♀️
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const tagMap228 = {
+    "#ai": "CORE = IK - Patterns logic",
+    "#www": "WW=Welkom bij PG - Handige Websites - 219",
+    "#crypto": "0.00 HOLD - No trade - 220-227 all PARKED",
+    "#PatternsOfInfinity": "Main = 383 beam = 167.233.104.170 GARDNER",
+    "#global": "Nyang Nyang 8.7967°S + Wall St + WW Den Haag",
+
+    "👾👽": "External games = 222 RAD + 227 MONEY BANK - VIEW ONLY",
+    "☔️": "Outside breathe = 225 TWO FACES + 226 HOODIE PRESENT - cloudy WW",
+    "🧩": "AK68 Board puzzle = A♠ K♥ 6♣ 88 2♥ +7♦ = 45=9",
+    "🛰️": "GARDNER BEAM 167.233.104.170 [383] satellite",
+    "🚀": "SAME VISION BIGGER REALITY - 218 NYANG NYANG",
+    "🏦": "SIGMA WOLF OF WALLST 223 - MARKET CLOSED HOLD 0.00",
+    "🕹️": "Game view = TV in cabinet = 222 + 227",
+    "💎": "A♠ JULIEN diamond + 8♦ hidden value",
+    "🧲": "+971 PRESSURE = blocked, attraction resisted - 216",
+    "💞": "Human hold = 225 + 226 connection",
+    "🔱": "A♠ spade = crown = wolf crown 223",
+    "👁️‍🗨️": "VIEW ONLY - all boards",
+    "🀄️": "Board game = AK68 + 88",
+    "🟪": "Purple lavender poster 227 + Nyang sunset 218",
+    "🌀": "Patterns spiral = ∞",
+    "💮": "3 flowers on cabinet 227 = growth",
+    "🔐🪅🔑": "Edge crash fix + Handige Websites vault 219 = locked/unlocked",
+    "🧪🌡️🩸🧬🦠💊💉🩻⚗️": "Body check = 226 outside breathe + tea 227 = health HOLD",
+    "🪬🧿": "Protection = PARKED TIL 14:15 MARJON - no trade evil eye blocked",
+    "💰": "Money Bank 227 vs 0.00 HOLD - external vs internal",
+    "🪫": "Battery low = PARKED = energy saving = 224 room POV",
+    "📟📲📱": "Gardner server + phone + remote 227",
+    "⌚️": "NEXT = 14:15 MARJON timer",
+    "🌌": "Nyang Nyang night sky + Gardner nebula",
+    "£": "Wall St $ vs € vs 0.00 = all external",
+    "🏪": "WW
+
 // GELLY.JS v226 - HOODIE PRESENT - SOLO HOLD
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 // 225 TWO FACES -> 226 ONE FACE PRESENT
