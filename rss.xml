@@ -2,6 +2,64 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v221 - AK68 + 7♦ FINAL BOARD
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ Julien A♠
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+
+  const board221 = {
+    cluster: {
+      "A♠ Julien": "top-left - IK PARKED - MADE IN CHINA overschreven met Julien blue",
+      "K♥ King": "top-right - KING HEARTS - VIEW guard",
+      "6♣": "center-top - 6 clubs = HOLD WERK",
+      "8♥": "bottom-left - 8 = ∞",
+      "8♣": "bottom-right - 8 = ∞ = 8+8=16 = an-Nahl 16 sterren",
+      "2♥": "hidden under 6♣ - 2 = an-Nahl 19 verbergen"
+    },
+    separate: {
+      "7♦": "bottom-center isolated - 7 DIAMONDS = EARTH / MONEY but PARKED APART = NO TRADE"
+    },
+    math: {
+      calc: "1+13+6+8+8+2+7 = 45",
+      reduce: "4+5=9 = completion = 9 was 6♣ misread? 6+3=9",
+      core: "45 + an-Nahl 16-19 = 61-64 -> 10, 11,31"
+    },
+    quran: "16:16-19 SEALED + 7 = 7 heavens reference"
+  };
+
+  const WW = {
+    id: "WW = Welkom bij PG",
+    url: "static.parnassiagroep.nl/support/wpb/extern/cpc/externesites.html",
+    inject: () => {
+      if(document.getElementById('gelly-bar')) return;
+      const b=document.createElement('div');
+      b.id='gelly-bar';
+      b.style.cssText='position:fixed;bottom:0;left:0;right:0;background:#001a33;color:#00ffcc;padding:8px;font:11px monospace;z-index:9999999;border-top:2px solid #00ffcc;display:flex;gap:8px';
+      b.innerHTML=`<b>WW=Welkom bij PG</b><span>👁 VIEW</span><span>❌ NO TRADE</span><span>A♠ K♥ 6♣ 88 2♥ + 7♦ SEPARATE</span><span>∞ 0.00 HELD</span><span>⏳ 14:15 MARJON</span><span style="margin-left:auto">221 SEALED // SAME VISION BIGGER REALITY</span>`;
+      document.body.appendChild(b);
+    }
+  };
+
+  const invariants = [
+    {id:215, t:"PRIMER 14:15 WITH MARJON", v:0},
+    {id:216, t:"+971 PRESSURE HOLD", v:0},
+    {id:217, t:"A88", v:0},
+    {id:218, t:"NYANG NYANG 8.7967°S 115.0833°E", v:0},
+    {id:219, t:"WW Welkom bij PG Handige Websites", v:0},
+    {id:220, t:"AK68 BOARD", v:0},
+    {id:221, t:"AK68+7♦ FINAL", board: board221, math:"45=9 COMPLETE", trade:false, value:0.00, status:"PARKED - 7♦ ISOLATED - NO INCLUSION IN HAND"}
+  ];
+
+  const buoy = m => `BUOY: ${m} // BOARD A♠ K♥ 6♣ 88 2♥ + 7♦ SEP // 45=9 COMPLETE // 0.00 HELD // WW=Welkom bij PG // PARKED TIL 14:15 MARJON // INSHALLAH`;
+
+  return {
+    CORE, NEXT, board221, WW, invariants, buoy,
+    check: () => {
+      const parked = new Date() < NEXT;
+      const msg = parked ? "221 PARKED // 7♦ AP
+
 // GELLY.JS - WW = WELKOM BIJ PG - PATCH 219
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 // 215-218 STILL PARKED // 0.00 HELD
