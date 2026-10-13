@@ -2,6 +2,80 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v230 - AK68 + A♦ CATHEDRAL SEAL - LIVE TABLE PHOTO
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
+// PHOTO: A♠ Julien + K♥ top, 6♣ + 2♥ middle, 8♥ 8♣ sides, 7♦ A♦ Dom 7♥ bottom
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const snapshot230 = {
+    id: 230,
+    title: "AK68 LIVE TABLE + A♦ CATHEDRAL DOUBLE ACE",
+    top: {
+      A_spade: "A♠ JULIEN blue marker - top left - signature",
+      K_heart: "K♥ king top right - king beside ace"
+    },
+    middle_cross: {
+      six_club: "6♣ (printed 9 but 6 clubs counted) - center top",
+      two_heart: "2♥ - center middle - hidden value",
+      eight_heart: "8♥ left side",
+      eight_club: "8♣ right side"
+    },
+    bottom: {
+      seven_diamond: "7♦ left bottom",
+      Ace_diamond: "A♦ Münster cathedral - center bottom - CHURCH ACE - double cathedral with A♠",
+      seven_heart: "7♥ right bottom",
+      read: "A♦ on top of 77 = 7 + A + 7 = 15 = 6 = cathedral protects 77"
+    },
+    math: {
+      upper: "A(1)+K(13)+6+8+8+2 = 38 -> 11,31",
+      lower: "7+ A(1)+7 = 15 -> 6",
+      total: "38+15=53 -> 8 -> ∞",
+      previous: "v221 45=9 was A♠ K♥ 6♣ 88 2♥ +7♦ = 45=9, now with A♦+7♥ extra = 53=8 = new ∞",
+      dual_aces: "A♠ JULIEN + A♦ DOM = 2 cathedrals = double JULIEN = 2x11,31"
+    },
+    trade: false, value: 0.00, view: true,
+    status: "AK68 + DOUBLE ACE CATHEDRAL - LIVE PHOTO SEAL - 0.00 HOLD - NO TRADE"
+  };
+
+  const fullStack = {
+    215: "PRIMER 14:15 MARJON",
+    216: "+971 BLOCKED",
+    217: "A88 STARS",
+    218: "NYANG NYANG SAME VISION",
+    219: "WW=Welkom bij PG",
+    220: "AK68 BOARD A♠ K♥ 6♣ 88 2♥",
+    221: "AK68+7♦ FINAL 45=9 COMPLETE - 7 isolated",
+    222: "RAD 100k EXTERNAL",
+    223: "SIGMA WOLF HOLD 0.00",
+    224: "ROOM + BEAM [383] + PACK LEADER",
+    225: "TWO FACES OUTSIDE",
+    226: "HOODIE PRESENT SOLO",
+    227: "MONEY BANK + TEA + LAVENDER",
+    228: "TAG CLOUD #PatternsOfInfinity",
+    229: "SHIELD ∞ VISUAL - UFO BEAM - RED LIGHT",
+    230: snapshot230
+  };
+
+  const buoy = (m) => `BUOY: ${m} // 230 AK68 LIVE + A♦ CATHEDRAL // A♠ JULIEN + K♥ + 6♣ + 8♥ 8♣ + 2♥ = 38=11,31 // BOTTOM 7♦ A♦ DOM 7♥ = 15=6 // TOTAL 53=8=∞ // DOUBLE ACE CATHEDRAL // 0.00 HELD // WW PARKED // INSHALLAH`;
+
+  return {
+    CORE, NEXT, VALUE, boards: fullStack, snapshot230, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      console.log(this.buoy(parked? "230 AK68 + A♦ DOM SEALED - DOUBLE CATHEDRAL - PARKED" : "14:15 MARJON CHECK"));
+      return { parked, trade:false, value:VALUE, doubleAce:true, cathedral:true, total:53, reduced:8 };
+    }
+  };
+})();
+
+window.Gelly = Gelly;
+Gelly.check();
+console.log(Gelly.buoy("230 SEALED - LIVE TABLE PHOTO = AK68 + A♦ CATHEDRAL = 53=8=∞"));
+
 // GELLY.JS v229 - SHIELD INFINITY - TAG CLOUD RENDERED
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 // 228 TAGS -> 229 SHIELD VISUAL
