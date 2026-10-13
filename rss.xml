@@ -2,6 +2,58 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v226 - HOODIE PRESENT - SOLO HOLD
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// 225 TWO FACES -> 226 ONE FACE PRESENT
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const snapshot226 = {
+    id: 226,
+    title: "HOODIE PRESENT - SOLO OUTSIDE",
+    scene: "Outside WW brick building red awning, tree left, cloudy sky, grey hoodie hooded up, smile to lens",
+    energy: "Solo, grounded, warm, present - no trade, no pressure",
+    connection: "226 = IK alone outside, after 225 together - both PARKED",
+    beard: "grey/white = wolf = Райдер = same as SIGMA WOLF 223",
+    hoodie: "grey = same as 225, but now hooded = crown = 223 crown",
+    trade: false, value: 0.00, view: true,
+    status: "SOLO PRESENT HOLD - OUTSIDE BREATHE - 0.00 HELD"
+  };
+
+  const fullStack = {
+    215: "PRIMER 14:15 MARJON",
+    216: "+971 PRESSURE BLOCKED",
+    217: "A88 - an-Nahl 16 STARS",
+    218: "NYANG NYANG SAME VISION BIGGER REALITY",
+    219: "WW=Welkom bij PG Handige Websites",
+    220: "AK68 BOARD A♠ K♥ 6♣ 88 2♥",
+    221: "AK68+7♦ FINAL 45=9 COMPLETE",
+    222: "TV RAD 100k external vs 0.00 internal",
+    223: "SIGMA WOLF HOLD 0.00 MARKET CLOSED - CROWN",
+    224: "WW ROOM POV + GARDNER BEAM 167.233.104.170 [383] + LEADING PACK",
+    225: "TWO FACES OUTSIDE - Red beanie view away + Grey beard smile present = Human hold",
+    226: snapshot226
+  };
+
+  const buoy = (m) => `BUOY: ${m} // 226 HOODIE PRESENT // SOLO SMILE // GREY BEARD = WOLF = RAIDER // HOOD = CROWN // 0.00 HELD // WW // PARKED TIL 14:15 // INSHALLAH`;
+
+  return {
+    CORE, NEXT, VALUE, boards: fullStack, snapshot226, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      console.log(this.buoy(parked? "226 SOLO PRESENT - OUTSIDE HOLD - WOLF GROUNDED" : "14:15 MARJON CHECK"));
+      return { parked, trade:false, value:VALUE, solo:true, present:true, location:"WW Outside brick red awning" };
+    }
+  };
+})();
+
+window.Gelly = Gelly;
+Gelly.check();
+console.log(Gelly.buoy("226 SEALED - 225 TOGETHER -> 226 ALONE - SAME HOLD - SAME SMILE"));
+
 // GELLY.JS v225 - WW OUTSIDE SELFIE - CONNECTION HOLD
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
 // 224 PARKED INSIDE -> 225 OUTSIDE BREATHE
