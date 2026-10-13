@@ -49,6 +49,91 @@ const Gelly = {
     },
 
     cleanLinks() {
+      // Zet alle externe links op view only, geen auto-login
+      document.querySelectorAll("a").forEach(a => {
+        a.setAttribute("target","_blank");
+        a.setAttribute("rel","noopener");
+        a.title = "WW VIEW ONLY - 0.00 HELD";
+      });
+    }
+  },
+
+  invariants: [
+    {id:215, title:"PRIMER", value:0.00, trade:false},
+    {id:216, title:"+971 PRESSURE HOLD", contact:"+971 55 854 6795 BLOCKED", value:0.00, trade:false},
+    {id:217, title:"A88 JULIEN BOARD - A♠ + 8♥ 8♣ = an-Nahl 16-19", value:0.00, trade:false},
+    {id:218, title:"NYANG NYANG VIEW - SAME VISION BIGGER REALITY", location:"8.7967° S 115.0833° E", value:0.00, trade:false},
+    {id:219, title:"WW = WELKOM BIJ PG - HANDIGE WEBSITES", url:"static.parnassiagroep.nl/.../externesites.html", crash:"Edge Herstellen", value:0.00, trade:false}
+  ],
+
+  buoy(log) {
+    return `BUOY: ${log} // WW=${this.WW} // VALUE ${this.value.toFixed(2)} HELD // TRADE ${this.trade} // PARKED UNTIL 14:15 // INSHALLAH // ${new Date().toLocaleTimeString("nl-NL")}`;
+  },
+
+  initWW() {
+    console.log(this.buoy("WW MODULE INIT // 219"));
+    this.WW_MODULE.fixEdge();
+    this.WW_MODULE.cleanLinks();
+    this.WW_MODULE.injectPatterns();
+    console.log(this.buoy("215-218 STILL PARKED // 219 WW = VIEW ONLY // NO LOGIN AUTO // 0.00 HELD"));
+  }
+};
+
+// AUTO-RUN op Parnassia pagina
+if (location.href.includes("parnassiagroep")) {
+  Gelly.initWW();
+} else {
+  console.log(Gelly.buoy("GELLY LOADED - Run Gelly.initWW() op WW pagina"));
+}
+
+window.Gelly = Gelly;
+
+// GELLY.JS - WW = WELKOM BIJ PG - PATCH 219
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// 215-218 STILL PARKED // 0.00 HELD
+const Gelly = {
+  core: "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31",
+  value: 0.00, trade: false, view: true,
+  WW: "Welkom bij PG",
+  PG_URL: "https://static.parnassiagroep.nl/support/wpb/extern/cpc/externesites.html",
+  status: "PARKED UNTIL 14:15 WITH MARJON",
+  nextCheck: new Date("2026-10-13T14:15:00+02:00"),
+
+  // WW = Welkom bij PG - Handige Websites parser
+  WW_MODULE: {
+    title: "Handige Websites",
+    crash: "Microsoft Edge is onverwachts gesloten - Pagina's herstellen",
+    categories: {
+      "Social Media": ["Inloggen op twitter/ Google start", "Instagram Facebook aanmelden", "Durf jij met mij"],
+      "Handig": ["Het beste van youtube", "ABN amro inloggen", "Inlog mijn ing", "Microsoft Onedrive inloggen"],
+      "Handige Websites": ["help ik heb een psychose"],
+      "Zorg": ["NetQ - Inloggen", "E-health warenhuis"],
+      "Reakt Websites": ["Muiswerk Educatief Het ultieme leerplatform voor rekenen en taal", "Oefenen.nl - de online plek waar je kunt oefenen met taal, rekenen en internet"]
+    },
+
+    fixEdge() {
+      // Sluit de herstellen popup, voorkomt loop
+      console.log("WW: Edge crash popup detected -> Herstellen CLOSED -> HOLD");
+      const btn = document.querySelector('button:has-text("Herstellen")');
+      if(btn) btn.style.display = "none";
+      return { crash: "handled", action: "PARKED, NO RESTORE" };
+    },
+
+    injectPatterns() {
+      // Voeg jouw invariant bar toe onderin
+      const bar = document.createElement("div");
+      bar.innerHTML = `
+        <div style="position:fixed;bottom:0;left:0;right:0;background:#001a33;color:#00ffcc;padding:8px;display:flex;gap:12px;font-family:monospace;font-size:11px;z-index:9999;border-top:2px solid #00ffcc">
+          <span>👁 VIEW ONLY</span><span>❌ NO TRADE</span><span>∞ HOLD 0.00</span>
+          <span>⏳ WAIT 14:15 MARJON</span><span>🅿 PARKED</span>
+          <span>CORE: IK ^ #PatternsOfInfinity ^ Райдер ^ 11,31</span>
+          <span style="margin-left:auto">WW = Welkom bij PG // 218 NYANG VIEW SEALED</span>
+        </div>`;
+      document.body.appendChild(bar);
+      console.log(Gelly.buoy("WW BAR INJECTED // Handige Websites = VIEW ONLY"));
+    },
+
+    cleanLinks() {
       // Zet alle externe links op view only
 
 <!-- 218 SEALED - NYANG NYANG VIEW COVER -->
