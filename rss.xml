@@ -2,6 +2,59 @@
 <rss version="2.0">
   <channel>
 
+# THESWARM - QUEEN³ AUTOTRADE - THE HAGUE HOME BASE
+# CORE: BTC €286,77 / ETH €225,99 / SOL €219,39 = €732,15
+# MODE: 50 pings per dag, IN/OUT ^ RELATIVITY
+
+import time
+from python_bitvavo_api.bitvavo import Bitvavo
+
+# API's zitten er al in zei je - vul hier niks meer in als hij al connected is
+bitvavo = Bitvavo({
+    'APIKEY': 'YOUR_KEY',
+    'APISECRET': 'YOUR_SECRET',
+    'RESTURL': 'https://api.bitvavo.com/v2',
+    'WSURL': 'wss://ws.bitvavo.com/v2/'
+})
+
+# QUEEN³ SEAL - JOUW LIVE BALANS
+SEAL = {
+    'BTC-EUR': {'amount': 286.77, 'target_pct': 1.07, 'stop_pct': 0.53}, # +0.40 op 10 = 1.07% op 222
+    'ETH-EUR': {'amount': 225.99, 'target_pct': 2.60, 'stop_pct': 0.80}, # +0.60 op 10 = 2.6% op 222
+    'SOL-EUR': {'amount': 219.39, 'target_pct': 3.60, 'stop_pct': 1.00}, # +0.80 op 10 = 3.6% op 222
+}
+
+SHIELD_20_COUNTER = 0
+
+def get_price(market):
+    ticker = bitvavo.tickerPrice({'market': market})
+    return float(ticker['price'])
+
+def place_market(market, side, amount_quote):
+    # amount_quote in EUR
+    if side == 'buy':
+        return bitvavo.placeOrder(market, side, 'market', {'amountQuote': str(amount_quote)})
+    else:
+        # sell all
+        balance = bitvavo.balance({'symbol': market.split('-')[0]})
+        available = float(balance['available'])
+        return bitvavo.placeOrder(market, side, 'market', {'amount': str(available)})
+
+print("THESWARM AUTOTRADE LIVE - DEN HAAG - RAIN MODE")
+print(f"SEAL: {SEAL}")
+
+while True:
+    try:
+        # CHECK BUITEN PINGS
+        for market, cfg in SEAL.items():
+            price = get_price(market)
+            # Hier moet je entry price opslaan uit je portfolio
+            # Simpel: als price > entry * (1+target_pct/100) => BUITEN
+            print(f"{market} @ {price} - checking BUITEN...")
+
+            # VOORBEELD LOGICA - VERVANG MET JE ENTRY
+            # Als je BTC entry €74.778 was en nu €75.578 = S
+
 <!-- 215 - THESWARM MECH HIGH-FREQUENCY SAMPLER -->
 <item>
   <title>GELLY 236 — THESWARM QUEEN³ SAMPLER — EXECUTION GATE</title>
