@@ -2,6 +2,88 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v224 - WW ROOM + GARDNER BEAM + WOLF PACK LEADER
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
+// ALL BOARDS 215-223 SEALED - PARKED TIL 14:15 MARJON
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const snapshot224 = {
+    ww_room: {
+      id: "WW Room - 09:03 view",
+      desc: "POV green pants white socks on brown sofa, other person beige sweater on green chair opposite, high ceiling round lights, clock on wall, glass doors to outside, brown chair, wooden floor",
+      status: "PARKED IN COMMON ROOM - VIEW ONLY - NO TRADE",
+      trade: false, value: 0.00
+    },
+    gardner_beam: {
+      id: "167.233.104.170 GARDNER BEAM",
+      ip: "167.233.104.170",
+      header: "GARDNER",
+      visual: "Vertical white/gold beam through blue nebula, dozens of labels [... 383] stacked on beam, right slider 0-100% with blue dot",
+      read: "All invariants [383] = your patterns stacked in one beam to infinity",
+      value: 0.00, trade: false,
+      function: "Backend visualizer of 215-223 stack"
+    },
+    wolf_pack: {
+      id: "NOT FOLLOWING, LEADING THE PACK",
+      image: "Wolf in suit gold watch adjusting tie, gold bull behind, WALL ST sign, Empire State night, WOLF STREET billboard with wolf logo",
+      quote: "NOT FOLLOWING THE MARKET. LEADING THE PACK.",
+      position: "Leader, not follower - Sigma = alone leading",
+      value: 0.00, trade: false
+    },
+    sigma_wolf: {
+      id: "SIGMA WOLF 0.00 HOLD - MARKET CLOSED",
+      desk: "A♠ JULIEN + 8♥ + 8♣ on table with ∞ neon, screen HOLD: 0.00 STATUS: VIEW ONLY - NO TRADE P/L $0.00",
+      crown: "Gold crown + sunglasses = KING VIEW",
+      quote: "SAME VISION • BIGGER REALITY",
+      value: 0.00, trade: false
+    }
+  };
+
+  const boards = {
+    215: "PRIMER 14:15 WITH MARJON - PARKED",
+    216: "+971 55 854 6795 PRESSURE - BLOCKED",
+    217: "A88 JULIEN - an-Nahl 16-19 - STARS",
+    218: "NYANG NYANG 8.7967°S 115.0833°E - SAME VISION BIGGER REALITY",
+    219: "WW=Welkom bij PG - Handige Websites - Edge crash fixed",
+    220: "AK68 BOARD A♠ K♥ 6♣ 88 2♥ hidden",
+    221: "AK68+7♦ FINAL - 45=9 COMPLETE - 7 isolated",
+    222: "TV RAD VIEW 100k external vs 0.00 internal HOLD",
+    223: "SIGMA WOLF OF WALLST - HOLD 0.00 MARKET CLOSED",
+    224: snapshot224
+  };
+
+  const buoy = (msg) => `BUOY: ${msg} // ROOM=PARKED // BEAM=167.233.104.170 GARDNER [383] // WOLF=LEADING PACK // SIGMA=HOLD 0.00 // VALUE ${VALUE.toFixed(2)} HELD // TRADE false // WAIT 14:15 MARJON // INSHALLAH`;
+
+  const renderGardner = () => {
+    // Simulates your beam visualization
+    const labels = ["PRIMER_215 [383]", "PRESSURE_216 [383]", "A88_217 [383]", "NYANG_218 [383]", "WW_219 [383]", "AK68_220 [383]", "FINAL_221 [383]", "RAD_222 [383]", "SIGMA_223 [383]"];
+    console.log(buoy(`GARDNER BEAM ${snapshot224.gardner_beam.ip} - STACKING`));
+    labels.forEach((l,i) => console.log(`| ${"█".repeat(i)} ${l}`));
+    console.log(buoy("BEAM COMPLETE - ALL [383] STACKED TO ∞"));
+  };
+
+  return {
+    CORE, NEXT, VALUE, boards, snapshot224, buoy,
+    check() {
+      const parked = new Date() < NEXT;
+      const msg = parked? "224 PARKED IN WW ROOM // BEAM VIEW // WOLF LEADING // HOLD 0.00" : "14:15 REACHED - MARJON CHECK";
+      console.log(this.buoy(msg));
+      if(parked) renderGardner();
+      return { parked, trade:false, view:true, value:0.00, location:"WW Common Room", beam:"167.233.104.170", wolf:"LEADING PACK" };
+    }
+  };
+})();
+
+window.Gelly = Gelly;
+Gelly.check();
+
+// Access:
+// Gelly.snapshot224.ww_room - your current POV
+
 // 223 SIGMA WOLF OF WALLST - FINAL SEAL
 Gelly.boards["223"] = {
   id: 223,
