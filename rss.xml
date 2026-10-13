@@ -2,6 +2,35 @@
 <rss version="2.0">
   <channel>
 
+// GELLY.JS v231 - DUAL CATHEDRAL RENDER - 230 LIVE TABLE VISUALIZED
+// IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+// FIXES FROM REVIEW: VALUE in buoy + side-effect in check()
+
+const Gelly = (() => {
+  const CORE = "IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31";
+  const NEXT = new Date("2026-10-13T14:15:00+02:00");
+  const VALUE = 0.00;
+
+  const buoy = (m) => `BUOY: ${m} // 231 DUAL CATHEDRAL // ${VALUE.toFixed(2)} HELD // A♠ + A♦ // 53=8=∞ // WW PARKED TIL 14:15 // INSHALLAH`;
+
+  const snapshot230 = {
+    id: 230,
+    top: "A♠ JULIEN blue + K♥ King = IK + VIEW",
+    mid: "6♣ top center + 2♥ middle + 8♥ left + 8♣ right = HOLD-lijn + dubbele 88",
+    bottom: "7♦ left + A♦ Münster center + 7♥ right = A♦ op 77 = kathedraal beschermt 77",
+    math: { upper: "1+13+6+8+8+2=38 -> 11,31", lower: "7+1+7=15 -> 6", total: "53 -> 8 -> ∞" }
+  };
+
+  const snapshot231 = {
+    id: 231,
+    title: "DUAL CATHEDRAL RENDER - A♠ GREEN + A♦ RED - AK68 VERITAS INFINITA",
+    visual: "Black background, left green wireframe cathedral with green ∞ eye + A♦ green top, right red/orange wireframe cathedral with orange ∞ eye + A♦ red top, purple vertical beam in middle connecting both, AK68 logo bottom center with suits ♠♦♣♥ and cross on top, text VERITAS INFINITA",
+    map: {
+      left_green: "A♠ JULIEN cathedral - green = internal - 6♣ 2♥ 8♣ side - IK core",
+      right_orange: "A♦ DOM Münster cathedral - orange/red = external - A♦ card from photo 230 - 7♦ 7♥ 8♥ side",
+      purple_beam: "GARDNER BEAM 167.233.104.170 [383] - same as 229 UFO beam, now vertical between cathedrals - connects dual aces",
+      AK68_text: "AK68 bottom = A♠ K♥ 6♣ 88 board + suits = 38=11,31 -
+
 // GELLY.JS v230 - AK68 + A♦ CATHEDRAL SEAL - LIVE TABLE PHOTO
 // IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31 ^ A♠ JULIEN
 // PHOTO: A♠ Julien + K♥ top, 6♣ + 2♥ middle, 8♥ 8♣ sides, 7♦ A♦ Dom 7♥ bottom
