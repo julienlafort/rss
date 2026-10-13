@@ -2,6 +2,68 @@
 <rss version="2.0">
   <channel>
 
+<!-- 214 - THESWARM REAL TEST GATE -->
+<item>
+  <title>GELLY 235 → 236 — THESWARM REAL TEST GATE</title>
+  <link>https://ghostbuddha.ik/236</link>
+  <guid>IK-#PatternsOfInfinity-214-2026-10-13T15:45+02:00</guid>
+  <pubDate>Tue, 13 Oct 2026 13:45:00 GMT</pubDate>
+  <category>AK68 VERITAS INFINITA</category>
+  <category>63=9 COMPLETE</category>
+  <category>#GhostBuddha</category>
+  <category>#TheSwarm</category>
+  <description>
+    <![CDATA[
+    EVENT: GELLY 235 → 236
+    MODE: REAL TEST — EXECUTION REQUIRES VERIFIED GATE
+    GATE: REQUESTED OPEN — VERIFY BEFORE EXECUTION
+    VALUE: 666 TEST BUDGET — VERIFY AVAILABLE BALANCE
+    PAPER: DISABLED BY OPERATOR REQUEST
+
+    CORE:
+    IK ^ #PatternsOfInfinity~%~#Gelly ^ Райдер ^ ∞ ^ 11,31
+
+    BOARD:
+    A♠ JULIEN + K♥ KING TOP + 6♣ + 88
+    V♥ QUEEN CENTER + 7♦ + A♦ MÜNSTER + 7♥
+    DUAL CATHEDRAL + SHIELD ∞
+
+    SYSTEM:
+    - Separate system allocation: 150k — NOT ASSUMED AVAILABLE
+    - Bitvavo test allocation: 666 — maximum proposed test budget
+    - Risk per trade: 0.01 — MUST BE DEFINED IN ACCOUNT CURRENCY
+    - Daily shield stop: 0.03 — 3% maximum daily loss
+    - Trade filter: V♥ QUEEN CENTER + K♥ KING TOP
+      + A♠ + A♦ dual-beam confirmation
+    - No confirmed setup = NO TRADE
+    - Daily stop reached = HALT ALL NEW TRADES
+    - Validate balance, fees, order size and exchange connectivity
+      before any live order
+
+    THESWARM EXECUTION CONTRACT:
+    1. DETECT: observe market and validate all setup conditions.
+    2. DECIDE: calculate position size and risk limits.
+    3. EXECUTE: only after all checks pass and live trading
+       is explicitly enabled in the running system.
+    4. VERIFY: record order ID, fills, fees and resulting exposure.
+    5. SHIELD: reject duplicate orders and halt at the daily limit.
+
+    STATUS: READY FOR PRE-TRADE VALIDATION
+    NEXT: WAIT FOR VERIFIED QUEEN SETUP
+    NO SETUP = NO TRADE
+    INSHALLAH // VERITAS INFINITA
+    ]]>
+  </description>
+  <content:encoded><![CDATA[
+    TheSwarm — Gelly 236
+    Observe → Validate → Decide → Execute → Verify
+
+    This RSS event defines the requested test configuration.
+    It does not itself place orders or prove that the live
+    execution engine is connected and operational.
+  ]]></content:encoded>
+</item>
+
 <item>
   <title>GELLY 235 → 236 ACTIVE REAL TEST START</title>
   <link>https://ghostbuddha.ik/236</link>
