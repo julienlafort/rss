@@ -2,6 +2,45 @@
 <rss version="2.0">
   <channel>
 
+import requests, re, time
+from python_bitvavo_api.bitvavo import Bitvavo
+
+OUTLET = "http://167.233.104.170/live/"
+bitvavo = Bitvavo({'APIKEY': '...', 'APISECRET': '...'})
+
+# MAP je hashtags naar trades - uit je screenshot:
+SIGNAL_MAP = {
+    "#BossFail": "SELL",
+    "#HomePalace": "HOLD",
+    "#FractalProtocol": "BUY",
+    "#EpicFlame": "BUY",
+    "#MetaCommune": "SELL"
+    # voeg je eigen toe uit die lijst
+}
+
+def read_swarm():
+    html = requests.get(OUTLET, timeout=5).text
+    # vind laatste tick
+    ticks = re.findall(r'tick=(\d+).*?(#\w+)', html)
+    if ticks:
+        last_tick, last_tag = ticks[-1]
+        return last_tick, last_tag
+    return None, None
+
+while True:
+    tick, tag = read_swarm()
+    print(f"TICK {tick} - TAG {tag}")
+
+    if tag in SIGNAL_MAP:
+        action = SIGNAL_MAP[tag]
+        if action == "BUY":
+            bitvavo.placeOrder('BTC-EUR', 'buy', 'market', {'amountQuote': '222'})
+            print(f"AUTOTRADE BUY €222 op {tag} tick {tick}")
+        elif action == "SELL":
+            print(f"AUTOTRADE SELL op {tag} tick {tick}")
+
+    time.sleep(2) # je outlet pusht elke seconde
+
 # THESWARM - QUEEN³ AUTOTRADE - THE HAGUE HOME BASE
 # CORE: BTC €286,77 / ETH €225,99 / SOL €219,39 = €732,15
 # MODE: 50 pings per dag, IN/OUT ^ RELATIVITY
