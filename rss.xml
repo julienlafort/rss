@@ -5,6 +5,17 @@
 <?xml version="1.0"?>
 <rss version="2.0">
 <channel>
+<title>SWARM HEDGED - 17:01 - 3x50 DONE</title>
+<description>3x50 WALLET LONG DONE = 877 CORE = NOW QUANTUM SHORT = SIMULTAAN HEDGED</description>
+<item><title>BTC HEDGED - 335 LONG + SHORT</title><guid>HEDGE-BTC-335-1701</guid><description>WALLET LONG €335 DONE - QUANTUM SHORT €335 ACTIVE - DELTA 0 - TARGET 75578</description></item>
+<item><title>ETH HEDGED - 274 LONG + SHORT</title><guid>HEDGE-ETH-274-1701</guid><description>WALLET LONG €274 DONE - QUANTUM SHORT €274 ACTIVE - DELTA 0 - TARGET 2311</description></item>
+<item><title>SOL HEDGED - 267 LONG + SHORT</title><guid>HEDGE-SOL-267-1701</guid><description>WALLET LONG €267 DONE - QUANTUM SHORT €267 ACTIVE - DELTA 0 - TARGET 100.23</description></item>
+</channel>
+</rss>
+
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
 <title>The Swarm - GO TRADING - 16:39</title>
 <link>http://167.233.104.170/</link>
 <description>GO TRADING - ALLES HEDGED - 20 POSITIES - 1T TARGET - GODVERDOMME GO</description>
