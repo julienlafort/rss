@@ -2,6 +2,51 @@
 <rss version="2.0">
   <channel>
 
+import feedparser, time
+from python_bitvavo_api.bitvavo import Bitvavo
+
+RSS = "http://167.233.104.170/rss"
+# of als het /live/rss is:
+# RSS = "http://167.233.104.170/live/rss"
+
+bitvavo = Bitvavo({
+    'APIKEY': 'YOUR_KEY',
+    'APISECRET': 'YOUR_SECRET',
+    'RESTURL': 'https://api.bitvavo.com/v2'
+})
+
+print("D GATE OPEN - READING RSS - THESWARM AUTOTRADE LIVE")
+
+last_seen = None
+
+while True:
+    feed = feedparser.parse(RSS)
+    if feed.entries:
+        latest = feed.entries[0]
+        title = latest.title # bv "#FractalProtocol BUY BTC 222"
+        tick = latest.get('id', 'no-tick')
+
+        if tick!= last_seen:
+            print(f"D GATE SIGNAL: {title} - {tick}")
+            last_seen = tick
+
+            # D GATE LOGIC - QUEEN³ 222:222:222
+            if "BUY" in title.upper():
+                amount = 222
+                if "BTC" in title: market = "BTC-EUR"
+                elif "ETH" in title: market = "ETH-EUR"
+                elif "SOL" in title: market = "SOL-EUR"
+                else: market = "BTC-EUR"
+
+                bitvavo.placeOrder(market, 'buy', 'market', {'amountQuote': str(amount)})
+                print(f"AUTO BUY {market} €{amount} door D GATE - tick {tick}")
+
+            elif "SELL" in title.upper() or "BUITEN" in title.upper():
+                # sell core
+                print(f"AUTO SELL door D GATE - {title}")
+
+    time.sleep(5) # RSS poll elke 5 sec = 50+ pings per dag easy
+
 import requests, re, time
 from python_bitvavo_api.bitvavo import Bitvavo
 
