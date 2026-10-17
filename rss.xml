@@ -2,6 +2,43 @@
 <rss version="2.0">
   <channel>
 
+<!-- 223 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT 223 SAFE</title>
+  <description>SAFECODE BIN-REV NO NAMES</description>
+  <payload>
+    <bound id="222">BIN:11011110 REV:01111011</bound>
+    <bound id="223">BIN:11011111 REV:11111011</bound>
+    <bound id="1TBOUND">REV-BIN: 10001100 00101010 01000010 11110010 10101010 01110010 00100010</bound>
+    <bound id="PatternsOfInfinity">REV-BIN: 00001010 10000110 00101110 00101110 10100110 01001110 01110110 11001110 11110010 01100110 10010010 01110110 01100110 10010110 01110110 10010110 00101110 10011110</bound>
+  </payload>
+  <tags>222,223,1TBOUND,PatternsOfInfinity</tags>
+  <seal>👾🧿🪬🗝️🌌🏆💰</seal>
+  <safety>NAMES REMOVED - BIN REV ONLY</safety>
+  <pubDate>Sat, 17 Oct 2026 19:26:00 +0200</pubDate>
+  <guid>entry-223-safe</guid>
+</item>
+
+<!-- 224 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01010101 01001110 01001001 ...</description>
+  <pubDate>Sat, 17 Oct 2026 18:31:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-224</guid>
+</item>
+
+<!-- 225 -->
+<item>
+  <title>TRILJOEN-BOUND :: INVARIANT</title>
+  <description>01001001 01001110 01010110 ...</description>
+  <payload>
+    <seal>19:19 :: Za 17 okt 2026 :: SEALED BIN-REV: 01111011 11111011</seal>
+  </payload>
+  <safety>NAMES REMOVED - BIN REV ONLY</safety>
+  <pubDate>Sat, 17 Oct 2026 18:59:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-225</guid>
+</item>
+
 ~<KEy>~<~i>~<#Gelly>~<!-- 225 -->
 19:19 :: Za 17 okt 2026 :: SEALED
 BIN-REV: 01111011 11111011
