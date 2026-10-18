@@ -6,6 +6,20 @@
 <rss version="2.0">
 <channel>
 
+<!-- 228 - 2 KLAVEREN + PVP SEAL - V4.0.28 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01000100 00100000 01000011 01001100 01010101 01000010 01010011 00100000 01010000 01010110 01010000</description>
+  <payload>
+    <raw>2 CLUBS | KAART | V4.0.28</raw>
+    <visual>2 </visual>
+    <location>V4.1- Zit-/slaapkamer - same table as 225</location>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED</safety>
+  <pubDate>Sun, 18 Oct 2026 08:49:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0228-2clubs-pvp</guid>
+</item>
+
 <!-- 227 - BACKBONEPATHS SEAL -->
 <item>
   <title>TRILJOEN-BOUND :: BACKBONEPATHS</title>
