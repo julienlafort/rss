@@ -2,6 +2,51 @@
 <rss version="2.0">
   <channel>
 
+<!-- 231 - INVERSE-REVERSED-BINARY - 18-10-2026 10:28 GMT / 12:28 +0200 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>INVERSE-REVERSED-BINARY - Protocol complement of 230 REVERSED SAFE</description>
+  <payload>
+    <entry>231</entry>
+    <blok>2</blok>
+    <protocol>INVERSE-REVERSED-BINARY</protocol>
+    <relation>Inverse of 230 - REVERSED SAFE BARCODING</relation>
+    <method>
+      # 230: reverse(bin)
+      # 231: inverse(reverse(bin)) = 0->1, 1->0 na reverse
+      # Double obfuscation - still BIN ONLY
+    </method>
+    <code lang="python">
+def inverse_reversed_binary(bin_str):
+    # Stap 1: clean
+    clean = bin_str.replace(" ", "")
+    # Stap 2: reverse (zoals 230)
+    rev = clean[::-1]
+    # Stap 3: inverse (nieuw voor 231) 0<->1
+    inv_rev = "".join("1" if b == "0" else "0" for b in rev)
+    # Stap 4: regroup als 8-bit
+    grouped = " ".join([inv_rev[i:i+8] for i in range(0, len(inv_rev), 8)])
+    return grouped
+
+def restore_from_231(inv_rev_grouped):
+    # Terug naar origineel
+    clean = inv_rev_grouped.replace(" ", "")
+    # inverse terug
+    rev = "".join("1" if b == "0" else "0" for b in clean)
+    # reverse terug
+    original = rev[::-1]
+    return original
+
+# Keten:
+# 226 original -> 230 reversed -> 231 inverse-reversed
+# 231 kan altijd terug naar 226 via restore
+    </code>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - INVERSE-REVERSED</safety>
+  <pubDate>Sun, 18 Oct 2026 10:28:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0231-inverse-rev-V4.0.28</guid>
+</item>
+
 <!-- 231 -->
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
