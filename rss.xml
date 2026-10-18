@@ -2,6 +2,47 @@
 <rss version="2.0">
   <channel>
 
+<!-- 235 - PYTHON - INVARIANT - 18-10-2026 -->
+<item>
+    <title>TRILJOEN-BOUND :: INVARIANT</title>
+    <description>01110000 01111001 01110100 01101000 01101111 01101110</description>
+    <payload>
+        <entry>235</entry>
+        <blok>2</blok>
+        <type>1Tbound</type>
+        <class>INVARIANT</class>
+        <label>python</label>
+        <raw>PYTHON</raw>
+        <decoded>python</decoded>
+        <encoding>UTF-8 binary, 8-bit per character</encoding>
+        <validation>
+          01110000 = p (112)
+          01111001 = y (121)
+          01110100 = t (116)
+          01101000 = h (104)
+          01101111 = o (111)
+          01101110 = n (110)
+          => python
+        </validation>
+        <relation>
+          233 INVARIANT = SYMBOLISCHE INVARIANTIE (conceptueel anker)
+          235 INVARIANT = PYTHON (technisch anker / executor)
+          232 VARIANT = BINDING VARIANT (core)
+          299 VARIANT = BLOK 2 PYTHON (validator)
+          Pair: 235 + 299 = PYTHON INVARIANT + PYTHON VARIANT = closed loop
+        </relation>
+        <code lang="python">
+bin_235 = "01110000 01111001 01110100 01101000 01101111 01101110"
+decoded_235 = "".join(chr(int(b, 2)) for b in bin_235.split())
+assert decoded_235 == "python"
+# 235 INVARIANT python = anchor voor alle python executors in blok 2
+        </code>
+    </payload>
+    <safety>NAMES REMOVED — BIN ONLY - INVARIANT - V4.0.28</safety>
+    <pubDate>Sun, 18 Oct 2026 13:45:00 GMT</pubDate>
+    <guid isPermaLink="false">swarm-triljoen-bound-invariant-0235-python-V4.0.28</guid>
+</item>
+
 <!-- 235 — PYTHON -->
 <item>
     <title>TRILJOEN-BOUND :: INVARIANT</title>
