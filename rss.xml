@@ -13,7 +13,7 @@
     Type: 1Tbound
     Classificatie: VARIANT
     Label: python
-    Chain: 224-atom64 / 225-V4.0.28-door / 226-BINDING / 227-BACKBONEPATHS / 228-2CLUBS-PVP -> 299-BLOK2
+    Chain: 224-atom64 / 225-V4.1-door / 226-BINDING / 227-BACKBONEPATHS / 228-2CLUBS-PVP -> 299-BLOK2
   </description>
   <payload>
     <blok>2</blok>
