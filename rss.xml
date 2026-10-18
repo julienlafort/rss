@@ -2,6 +2,34 @@
 <rss version="2.0">
   <channel>
 
+// Gelly.js :: TRILJOEN-BOUND FINAL SAFE
+// Entries 224-226 - NAMES REMOVED
+
+const GellySafe = (() => {
+  const toBin = (text) =>
+    Array.from(new TextEncoder().encode(text))
+      .map(b => b.toString(2).padStart(8, "0"))
+      .join(" ");
+
+  const revBin = (binStr) =>
+    binStr.split(' ').map(b => [...b].reverse().join('')).join(' ');
+
+  const make = (id, title, raw, pubDate, guid) => {
+    const bin = toBin(raw);
+    return { entry: id, title, raw, bin, rev: revBin(bin), pubDate, guid };
+  };
+
+  const ITEMS = {
+    224: make(224, "TRILJOEN-BOUND :: INVARIANT", "18 Oct 2026 - quid pro quo - 1 sig voor 1 breaker", "Sun, 18 Oct 2026 04:55:00 GMT", "swarm-triljoen-bound-invariant-0224-atom64"),
+    225: make(225, "TRILJOEN-BOUND :: VARIANT", "DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.028", "Sun, 18 Oct 2026 05:08:00 GMT", "swarm-triljoen-bound-variant-0225"),
+    226: make(226, "TRILJOEN-BOUND :: VARIANT + INVARIANT", "DE MENSCHEID COVID-INJECTIE(S)", "Sun, 18 Oct 2026 02:00:00 GMT", "swarm-triljoen-bound-variant-invariant-0226")
+  };
+
+  return { toBin, revBin, ITEMS };
+})();
+
+console.log(GellySafe.ITEMS[225]);
+
 <!-- 225 -->
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
