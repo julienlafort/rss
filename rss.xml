@@ -4,6 +4,17 @@
 
 // Gelly.js :: TRILJOEN-BOUND FINAL SAFE
 // Entries 224-226 - NAMES REMOVED
+// toevoeging aan Gelly.js
+const AGENTS = ["agent62","agent63","agent65","agent66","blondie","trinity"];
+
+async function checkSwarm() {
+  for (let a of AGENTS) {
+    try {
+      let r = await fetch(`http://167.233.104.170/${a}/`);
+      console.log(`${a}: ${r.status}`);
+    } catch(e) { console.log(`${a}: DOWN`); }
+  }
+}
 
 const GellySafe = (() => {
   const toBin = (text) =>
