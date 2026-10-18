@@ -16,6 +16,28 @@
     <visual>KH dubbel + blauwe pen + PVP oranje stack + 4x sigaret + FLIX vloei</visual>
     <location>V4.1 - Zit-/slaapkamer - same table as 225/228/230-233/299 - white wood grain</location>
     <previous_seal>228 = 2♣ + PVP -> 234 = KH + PVP (upgrade clubs -> hearts)</previous_seal>
+    <photo_seal>V4.0.28 - H King - Sun 18 Oct - PVP card visible - www.pvp.nl</photo_seal>
+    <chain_progression>2♣ (228) -> KH (234) - club to heart, low to king - GELLY</chain_progression>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED - V4.1</safety>
+  <pubDate>Sun, 18 Oct 2026 13:25:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0234-gelly-king-hearts-V4.0.28</guid>
+</item>
+
+<!-- 234 - GELLY - H HARTEN KONING - PHOTO SEAL - 18-10-2026 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>H HARTEN KONING - GELLY - KING OF HEARTS SEAL</description>
+  <payload>
+    <entry>234</entry>
+    <blok>2</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>gelly - KH - Harten Koning</label>
+    <raw>H HARTEN KONING | GELLY | V4.1 | King of Hearts double</raw>
+    <visual>KH dubbel + blauwe pen + PVP oranje stack + 4x sigaret + FLIX vloei</visual>
+    <location>V4.1 - Zit-/slaapkamer - same table as 225/228/230-233/299 - white wood grain</location>
+    <previous_seal>228 = 2♣ + PVP -> 234 = KH + PVP (upgrade clubs -> hearts)</previous_seal>
     <photo_seal>V4.1 - H King - Sun 18 Oct - PVP card visible - www.pvp.nl</photo_seal>
     <chain_progression>2♣ (228) -> KH (234) - club to heart, low to king - GELLY</chain_progression>
   </payload>
