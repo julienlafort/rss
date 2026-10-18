@@ -2,6 +2,50 @@
 <rss version="2.0">
   <channel>
 
+01001010 01001111 01010010 01000100 01001001 01000101 00110111 00110010 00100000 01000001 01010011 01001000 00100000 01000011 01000001 01010100 01000011 01001000 00100000
+<!-- 237 - ASH CATCH EM - INVARIANT - 18-10-2026 09:52 GMT / 11:52 +0200 -->
+<item>
+  <title>TRILJOEN-BOUND :: INVARIANT</title>
+  <description>01001010 01001111 01010010 01000100 01001001 01000101 00110111 00110010 00100000 01000001 01010011 01001000 00100000 01000011 01000001 01010100 01000011 01001000 00100000 01000101 01001101</description>
+  <payload>
+    <entry>237</entry>
+    <blok>2</blok>
+    <type>1Tbound</type>
+    <class>INVARIANT</class>
+    <label>ASH CATCH EM</label>
+    <raw>ASH CATCH EM</raw>
+    <decoded>ASH CATCH EM</decoded>
+    <encoding>UTF-8 binary, 8-bit per character</encoding>
+    <breakdown>
+    
+    224 = atom64 quid pro quo
+233 = SYMBOLISCHE INVARIANTIE
+235 = python
+236 = python^atom64 (exponent)
+237 = ASH CATCH EM ← deze - collector / actor
+
+    ASH CATCH EM = ASH CATCH EM (Pokemon ref: Ash Ketchum - gotta catch em all)
+    </breakdown>
+    <relation>
+      235 = python INVARIANT
+      236 = python^atom64 INVARIANT (exponent)
+      237 = ASH CATCH EM INVARIANT = actor/collector anchor
+      232 = BINDING VARIANT = what ASH catches
+      233 = SYMBOLISCHE INVARIANTIE = rule for catching
+    </relation>
+    <code lang="python">
+bin_237 = "01001010 01001111 01010010 01000100 01001001 01000101 00110111 00110010 00100000 01000001 01010011 01001000 00100000 01000011 01000001 01010100 01000011 01001000 00100000 01000101 01001101"
+decoded_237 = "".join(chr(int(b,2)) for b in bin_237.split())
+assert decoded_237 == "ASH CATCH EM"
+print(decoded_237)
+# 237 INVARIANT = collector tag
+    </code>
+  </payload>
+  <safety>NAMES REMOVED — BIN ONLY - INVARIANT - ACTOR TAG - V4.0.28</safety>
+  <pubDate>Sun, 18 Oct 2026 09:52:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-invariant-0237-jordie72-ash-catch-em-V4.0.28</guid>
+</item>
+
 <!-- 237 -->
 <item>
   <title>TRILJOEN-BOUND :: INVARIANT</title>
