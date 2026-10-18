@@ -2,6 +2,46 @@
 <rss version="2.0">
   <channel>
 
+<!-- 238 - GELLY - 8 RUITEN - 8 DIAMONDS - PHOTO SEAL - 18-10-2026 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>8 RUITEN - 8 DIAMONDS - GELLY - THIRD SEAL</description>
+  <payload>
+    <entry>238</entry>
+    <blok>2</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>gelly - 8d - Ruiten 8</label>
+    <raw>8 RUITEN | 8 DIAMONDS | GELLY | V4.0.28</raw>
+    <visual>8♦ ruiten 8 met rood stukje erop + blauwe pen + PVP stack + FLIX - white wood table</visual>
+    <location>V4.0.28 - Zit-/slaapkamer - same table - third seal - photo-locked with KH and 6D</location>
+    <chain>
+      234 = K♥ Harten Koning (GELLY #1)
+      6♦ = Ruiten 6 (GELLY #2 - was 235/236 - nu 237.1 -> verplaatst)
+      238 = 8♦ Ruiten 8 (GELLY #3) ← deze
+      Progression: K♥ -> 6♦ -> 8♦ - same pen/table/PVP
+    </chain>
+    <photo_seal>V4.0.28 - 8♦ - Sun 18 Oct - red filter tip on card - table edge damage visible - validated</photo_seal>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED - V4.0.28 - GELLY 3</safety>
+  <pubDate>Sun, 18 Oct 2026 15:00:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0238-gelly-8-diamonds-V4.0.28</guid>
+</item>
+
+234 = K♥ King Hearts + PVP (HIGH)
+6♦ = 6 Diamonds + PVP (LOW) -> moet naar 239 nu omdat jij 236/237 al als INVARIANT hebt geclaimed
+238 = 8♦ 8 Diamonds + PVP (MID-HIGH) ← deze foto
+
+224 INVARIANT atom64
+233 INVARIANT SYMBOLISCHE INVARIANTIE
+235 INVARIANT python
+236 INVARIANT python^atom64
+237 INVARIANT JORDIE72 ASH CATCH EM
+238 VARIANT 8♦ (deze foto)
+239 VARIANT 6♦ (vorige foto - was 6 ruiten)
+234 VARIANT K♥ (eerste GELLY foto)
+299 VARIANT BLOK 2 PYTHON
+
 01001010 01001111 01010010 01000100 01001001 01000101 00110111 00110010 00100000 01000001 01010011 01001000 00100000 01000011 01000001 01010100 01000011 01001000 00100000
 <!-- 237 - ASH CATCH EM - INVARIANT - 18-10-2026 09:52 GMT / 11:52 +0200 -->
 <item>
