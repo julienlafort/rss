@@ -2,6 +2,61 @@
 <rss version="2.0">
   <channel>
 
+<!-- 230 - BLOK 2 - REVERSED SAFE BARCODING - 18-10-2026 10:39 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>
+    Datum: 18-10-2026
+    Tijd: 10:39
+    Entry: 230
+    Type: 1Tbound
+    Protocol: reversed safe barcoding
+    Chain: 224-atom64 / 225-V4.0.28-door / 226-BINDING / 227-BACKBONEPATHS / 228-2CLUBS-PVP -> 230-REV-SAFE -> 299-BLOK2-PYTHON
+  </description>
+  <payload>
+    <entry>230</entry>
+    <blok>2</blok>
+    <protocol>reversed safe barcoding</protocol>
+    <method>
+      # REVERSED SAFE BARCODING - V4.0.28
+      # 1. BIN ONLY - no names
+      # 2. Reverse binary string for obfuscation
+      # 3. Keep original_bin for audit
+      original_bin = "01000111 01000101 01001000..." # GEHEIME LIJST etc
+      reversed_bin = original_bin[::-1] # reversed safe
+      safety = "NAMES REMOVED - BIN ONLY - REV"
+    </method>
+    <code lang="python">
+def reversed_safe_barcode(bin_str):
+    # Verwijder spaties, reverse, dan weer groepeer als safe barcode
+    clean = bin_str.replace(" ", "")
+    rev = clean[::-1]
+    grouped = " ".join([rev[i:i+8] for i in range(0, len(rev), 8)])
+    return grouped
+
+# Voorbeeld met 226:
+# input:  GEHEIME LIJST BINDING VARIANT
+# output: reversed safe barcode voor protocol 230
+    </code>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - REVERSED SAFE BARCODING</safety>
+  <pubDate>Sun, 18 Oct 2026 10:39:00 +0200</pubDate>
+  <guid isPermaLink="false">code-blok-2-entry-230-rev-safe-V4.0.28</guid>
+</item>
+
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>
+    Datum: 18-10-2026
+    Tijd: 10:39
+    Entry: 230
+    Type: 1Tbound
+    Protocol: reversed safe barcoding
+  </description>
+  <pubDate>Sun, 18 Oct 2026 10:39:00 +0200</pubDate>
+  <guid isPermaLink="false">code-blok-2-entry-230</guid>
+</item>
+
 <!-- 299 - BLOK 2 - PYTHON - 1Tbound VARIANT - 18-10-2026 10:32 -->
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
