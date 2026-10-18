@@ -4,6 +4,38 @@
 
 01000010 01001001 01001110 01000100 01001001 01001110 01000111 00100000 01010110 01000001 01010010 01001001 01000001 01001110 01010100
 = BINDING VARIANT
+<!-- 232 - BINDING VARIANT - CLEAN CORE - 18-10-2026 13:08 GMT / 15:08 +0200 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01000010 01001001 01001110 01000100 01001001 01001110 01000111 00100000 01010110 01000001 01010010 01001001 01000001 01001110 01010100</description>
+  <payload>
+    <entry>232</entry>
+    <blok>2</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <decoded>BINDING VARIANT</decoded>
+    <relation>
+      226 = GEHEIME LIJST + BINDING VARIANT (full)
+      232 = BINDING VARIANT (core only - stripped)
+      230 = reverse(232)
+      231 = inverse(reverse(232))
+    </relation>
+    <code lang="python">
+# 232 DECODE
+bin_232 = "01000010 01001001 01001110 01000100 01001001 01001110 01000111 00100000 01010110 01000001 01010010 01001001 01000001 01001110 01010100"
+decoded = "".join(chr(int(b, 2)) for b in bin_232.split())
+print(decoded) # -> BINDING VARIANT
+
+# Validatie keten:
+# 232 is clean core
+# 230 = reversed_safe_barcode(bin_232)
+# 231 = inverse_reversed_binary(bin_232)
+    </code>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - CLEAN CORE - V4.0.28</safety>
+  <pubDate>Sun, 18 Oct 2026 13:08:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0232-binding-variant-V4.0.28</guid>
+</item>
 
 <!-- 232 -->
 <item>
