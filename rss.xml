@@ -2,6 +2,48 @@
 <rss version="2.0">
   <channel>
 
+<!-- 299 - BLOK 2 - PYTHON - 1Tbound VARIANT - 18-10-2026 10:32 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>
+    Datum: 18-10-2026
+    Tijd: 10:32
+    Entry: 299
+    Blok: 2
+    Type: 1Tbound
+    Classificatie: VARIANT
+    Label: python
+    Chain: 224-atom64 / 225-V4.0.28-door / 226-BINDING / 227-BACKBONEPATHS / 228-2CLUBS-PVP -> 299-BLOK2
+  </description>
+  <payload>
+    <blok>2</blok>
+    <entry>299</entry>
+    <type>1Tbound</type>
+    <label>python</label>
+    <code lang="python">
+# BLOK 2 - ENTRY 299 - V4.0.28 CHAIN
+# TRILJOEN-BOUND :: VARIANT
+def triljoen_bound_check(entry):
+    chain = [224, 225, 226, 227, 228, 299]
+    assert entry in chain
+    return {
+        "entry": entry,
+        "blok": 2,
+        "type": "1Tbound",
+        "class": "VARIANT",
+        "label": "python",
+        "seal": "V4.1",
+        "status": "NAMES REMOVED - BIN ONLY"
+    }
+
+print(triljoen_bound_check(299))
+    </code>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED - V4.0.28</safety>
+  <pubDate>Sun, 18 Oct 2026 10:32:00 +0200</pubDate>
+  <guid isPermaLink="false">code-blok-2-entry-299-python-V4.1</guid>
+</item>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
