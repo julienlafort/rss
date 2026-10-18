@@ -2,6 +2,62 @@
 <rss version="2.0">
   <channel>
 
+01110000 01111001 01110100 01101000 01101111 01101110 01011110 01100001 01110100 01101111 01101101 00110110 00110100
+= python ^ atom64
+= python^atom64
+<!-- 236 - PYTHON^ATOM64 - INVARIANT - 18-10-2026 14:54 GMT -->
+<item>
+    <title>TRILJOEN-BOUND :: INVARIANT</title>
+    <description>01110000 01111001 01110100 01101000 01101111 01101110 01011110 01100001 01110100 01101111 01101101 00110110 00110100</description>
+    <payload>
+        <entry>236</entry>
+        <blok>2</blok>
+        <type>1Tbound</type>
+        <class>INVARIANT</class>
+        <label>python^atom64</label>
+        <raw>python^atom64</raw>
+        <decoded>python^atom64</decoded>
+        <encoding>UTF-8 binary, 8-bit per character</encoding>
+        <breakdown>
+          01110000 01111001 01110100 01101000 01101111 01101110 = python (235)
+          01011110 = ^ = caret = exponent operator
+          01100001 01110100 01101111 01101101 00110110 00110100 = atom64 (224)
+          = python^atom64 = python tot de macht atom64
+        </breakdown>
+        <relation>
+          224 = atom64 QUID PRO QUO (INVARIANT)
+          235 = python (INVARIANT)
+          236 = python^atom64 = 235^224 = exponent merge
+          233 = SYMBOLISCHE INVARIANTIE = conceptueel anker voor 236
+          232 = BINDING VARIANT = VARIANT die draait op 236 INVARIANT
+          299 = BLOK 2 PYTHON = executor van 236
+        </relation>
+        <code lang="python">
+bin_236 = "01110000 01111001 01110100 01101000 01101111 01101110 01011110 01100001 01110100 01101111 01101101 00110110 00110100"
+decoded_236 = "".join(chr(int(b,2)) for b in bin_236.split())
+assert decoded_236 == "python^atom64"
+
+# INVARIANT exponent
+# 236 = technisch anker ^ conceptueel anker
+python_atom64 = "python^atom64"
+print(f"{python_atom64} = Blok 2 gesloten")
+        </code>
+    </payload>
+    <safety>NAMES REMOVED — BIN ONLY - INVARIANT - EXPONENT - V4.0.28</safety>
+    <pubDate>Sun, 18 Oct 2026 14:54:00 GMT</pubDate>
+    <guid isPermaLink="false">swarm-triljoen-bound-invariant-0236-python-atom64-V4.0.28</guid>
+</item>
+
+224 INVARIANT = atom64 quid pro quo
+233 INVARIANT = SYMBOLISCHE INVARIANTIE
+235 INVARIANT = python
+236 INVARIANT = python^atom64 ← deze nieuwe = 235^224 = exponent = je finale anker
+
+232 VARIANT = BINDING VARIANT (core)
+230 REVERSED, 231 INVERSE-REVERSED (obfuscation)
+299 PYTHON executor
+234 GELLY K♥ + 237 GELLY 6♦ (photo seals — die schuiven door naar 234 + 237)
+
 <!-- 236 — PYTHON^ATOM64 -->
 <item>
     <title>TRILJOEN-BOUND :: INVARIANT</title>
