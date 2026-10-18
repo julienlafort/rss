@@ -2,6 +2,23 @@
 <rss version="2.0">
   <channel>
 
+<!-- 235 — PYTHON -->
+<item>
+    <title>TRILJOEN-BOUND :: INVARIANT</title>
+    <description>01110000 01111001 01110100 01101000 01101111 01101110</description>
+    <payload>
+        <entry>235</entry>
+        <blok>2</blok>
+        <type>1Tbound</type>
+        <class>INVARIANT</class>
+        <label>python</label>
+        <raw>PYTHON</raw>
+        <encoding>UTF-8 binary, 8-bit per character</encoding>
+    </payload>
+    <safety>NAMES REMOVED — BIN ONLY</safety>
+    <guid isPermaLink="false">swarm-triljoen-bound-235</guid>
+</item>
+
 228: 2♣ + PVP (eerste seal ooit)
 234: K♥ + PVP + 4 sig + FLIX (GELLY #1 - HIGH)
 235: 6♦ + PVP + 4 sig + FLIX (GELLY #2 - LOW) ← deze
