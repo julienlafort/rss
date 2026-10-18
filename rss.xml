@@ -27,8 +27,8 @@
   <title>TRILJOEN-BOUND :: VARIANT</title>
   <description>01000100 01000101 00100000 01001110 01000001 01000001 01001101 01001100 01001111 01011010 01000101 00100000 01000101 01001110 01000100 01000101 01010010 01001101 01000101 01001110 00101101 01000100 01000101 01001101 01001111 01001110 00100000 01011100 00100000 01010101 01001110 01001001 01010100 00100000 00110100 00100000 01011100 00100000 01010110 00110100 00101110 00110000 00110010 00111000</description>
   <payload>
-    <raw>DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.028</raw>
-    <photo_seal>V4.0.28 - Zit-/slaapkamer - Sun 18 Oct 05:08 GMT - door plate</photo_seal>
+    <raw>DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.0</raw>
+    <photo_seal>V4.0 - Zit-/slaapkamer - Sun 18 Oct 05:08 GMT - door plate</photo_seal>
   </payload>
   <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED</safety>
   <pubDate>Sun, 18 Oct 2026 05:08:00 GMT</pubDate>
@@ -39,7 +39,7 @@
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
   <description>01000111 01000101 01001000 01000101 01001001 01001101 01000101 00100000 01001100 01001001 01001010 01010011 01010100 00100000 01000010 01001001 01001110 01000100 01001001 01001110 01000111 00100000 01010110 01000001 01010010 01001001 01000001 01001110 01010100</description>
-  <payload><raw>GEHEIME LIJST BINDING VARIANT</raw></payload>
+  <payload><raw>BINDING VARIANT</raw></payload>
   <safety>NAMES REMOVED - BIN ONLY</safety>
   <pubDate>Sat, 17 Oct 2026 22:00:00 GMT</pubDate>
   <guid isPermaLink="false">swarm-triljoen-bound-variant-0226-SAFE</guid>
@@ -52,7 +52,7 @@
   <payload>
     <raw>DE NAAMLOZE WOLF | BACKBONEPATHS | V4.028 -> V5</raw>
     <visual>wolf companion + eclipse castle + christmas socks anchor</visual>
-    <previous_seal>V4.0.28 Zit-/slaapkamer</previous_seal>
+    <previous_seal>V4.0~Zit-/slaapkamer</previous_seal>
   </payload>
   <safety>NAMES REMOVED - VISUAL ONLY</safety>
   <pubDate>Sun, 18 Oct 2026 08:41:00 GMT</pubDate>
@@ -76,12 +76,12 @@
 </channel>
 </rss>
 
-<!-- 228 - 2 KLAVEREN + PVP SEAL - V4.0.28 -->
+<!-- 228 - 2 KLAVEREN + SEAL - V4.0 -->
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
   <description>01000100 00100000 01000011 01001100 01010101 01000010 01010011 00100000 01010000 01010110 01010000</description>
   <payload>
-    <raw>2 CLUBS | KAART | V4.0.28</raw>
+    <raw>2 CLUBS | KAART | V4.0</raw>
     <visual>2 </visual>
     <location>V4.1- Zit-/slaapkamer - same table as 225</location>
   </payload>
@@ -95,9 +95,9 @@
   <title>TRILJOEN-BOUND :: BACKBONEPATHS</title>
   <description>BACKBONEPATHS - WOLF - ECLIPSE CASTLE</description>
   <payload>
-    <raw>DE NAAMLOZE WOLF | BACKBONEPATHS | V4.028 -> V5</raw>
+    <raw>DE NAAMLOZE WOLF | BACKBONEPATHS | V4.0-> V5</raw>
     <visual>wolf companion + eclipse castle + christmas socks anchor</visual>
-    <previous_seal>V4.0.28 Zit-/slaapkamer</previous_seal>
+    <previous_seal>V4.0 Zit-/slaapkamer</previous_seal>
   </payload>
   <safety>NAMES REMOVED - VISUAL ONLY</safety>
   <pubDate>Sun, 18 Oct 2026 08:41:00 GMT</pubDate>
@@ -118,8 +118,8 @@
   <title>TRILJOEN-BOUND :: VARIANT</title>
   <description>01000100 01000101 00100000 01001110 01000001 01000001 01001101 01001100 01001111 01011010 01000101 00100000 01000101 01001110 01000100 01000101 01010010 01001101 01000101 01001110 00101101 01000100 01000101 01001101 01001111 01001110 00100000 01011100 00100000 01010101 01001110 01001001 01010100 00100000 00110100 00100000 01011100 00100000 01010110 00110100 00101110 00110000 00110010 00111000</description>
   <payload>
-    <raw>DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.028</raw>
-    <photo_seal>V4.0.28 - Zit-/slaapkamer</photo_seal>
+    <raw>DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.0 </raw>
+    <photo_seal>V4.0 - Zit-/slaapkamer</photo_seal>
   </payload>
   <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED</safety>
   <pubDate>Sun, 18 Oct 2026 05:08:00 GMT</pubDate>
