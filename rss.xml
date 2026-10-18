@@ -21,7 +21,7 @@
     <type>1Tbound</type>
     <label>python</label>
     <code lang="python">
-# BLOK 2 - ENTRY 299 - V4.0.28 CHAIN
+# BLOK 2 - ENTRY 299 - V4.1~%~CHAIN
 # TRILJOEN-BOUND :: VARIANT
 def triljoen_bound_check(entry):
     chain = [224, 225, 226, 227, 228, 299]
