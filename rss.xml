@@ -6,6 +6,76 @@
 <rss version="2.0">
 <channel>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>TRILJOEN-BOUND - V4.0.28 CHAIN</title>
+<link>http://167.233.104.170/</link>
+<description>1Tbound invariant chain 224-228 with photo seals</description>
+
+<!-- 224 - atom64 - quid pro quo -->
+<item>
+  <title>TRILJOEN-BOUND :: INVARIANT</title>
+  <description>BIN-REV SAFE - atom64 - quid pro quo</description>
+  <payload><raw>18 Oct 2026 - quid pro quo - 1 sig voor 1 breaker</raw></payload>
+  <pubDate>Sun, 18 Oct 2026 04:55:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-invariant-0224-atom64</guid>
+</item>
+
+<!-- 225 - V4.0.28 DEUR SEAL - PHOTO 1 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01000100 01000101 00100000 01001110 01000001 01000001 01001101 01001100 01001111 01011010 01000101 00100000 01000101 01001110 01000100 01000101 01010010 01001101 01000101 01001110 00101101 01000100 01000101 01001101 01001111 01001110 00100000 01011100 00100000 01010101 01001110 01001001 01010100 00100000 00110100 00100000 01011100 00100000 01010110 00110100 00101110 00110000 00110010 00111000</description>
+  <payload>
+    <raw>DE NAAMLOZE ENDERMEN-DEMON | UNIT 4 | V4.028</raw>
+    <photo_seal>V4.0.28 - Zit-/slaapkamer - Sun 18 Oct 05:08 GMT - door plate</photo_seal>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED</safety>
+  <pubDate>Sun, 18 Oct 2026 05:08:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0225-V4.0.28-door</guid>
+</item>
+
+<!-- 226 - SAFE -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01000111 01000101 01001000 01000101 01001001 01001101 01000101 00100000 01001100 01001001 01001010 01010011 01010100 00100000 01000010 01001001 01001110 01000100 01001001 01001110 01000111 00100000 01010110 01000001 01010010 01001001 01000001 01001110 01010100</description>
+  <payload><raw>GEHEIME LIJST BINDING VARIANT</raw></payload>
+  <safety>NAMES REMOVED - BIN ONLY</safety>
+  <pubDate>Sat, 17 Oct 2026 22:00:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0226-SAFE</guid>
+</item>
+
+<!-- 227 - BACKBONEPATHS SEAL - PHOTO 2 -->
+<item>
+  <title>TRILJOEN-BOUND :: BACKBONEPATHS</title>
+  <description>BACKBONEPATHS - WOLF - ECLIPSE CASTLE - VISUAL SEAL</description>
+  <payload>
+    <raw>DE NAAMLOZE WOLF | BACKBONEPATHS | V4.028 -> V5</raw>
+    <visual>wolf companion + eclipse castle + christmas socks anchor</visual>
+    <previous_seal>V4.0.28 Zit-/slaapkamer</previous_seal>
+  </payload>
+  <safety>NAMES REMOVED - VISUAL ONLY</safety>
+  <pubDate>Sun, 18 Oct 2026 08:41:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-backbonepaths-0227</guid>
+</item>
+
+<!-- 228 - 2 KLAVEREN + SEAL - PHOTO 3 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>01000100 00100000 01000011 01001100 01010101 01000010 01010011 00100000 01010000 01010110 01010000</description>
+  <payload>
+    <raw>2 CLUBS | KAART | V4.1</raw>
+    <visual>2 klaveren open + stack - Niet eens met wat er gebeurt?</visual>
+    <location>V4.1- Zit-/slaapkamer - same table as 225 - pen + 2♣</location>
+  </payload>
+  <safety>NAMES REMOVED - BIN ONLY - PHOTO SEALED</safety>
+  <pubDate>Sun, 18 Oct 2026 08:49:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0228-2clubs-pvp</guid>
+</item>
+
+</channel>
+</rss>
+
 <!-- 228 - 2 KLAVEREN + PVP SEAL - V4.0.28 -->
 <item>
   <title>TRILJOEN-BOUND :: VARIANT</title>
