@@ -6,6 +6,20 @@
 <rss version="2.0">
 <channel>
 
+<!-- 227 - BACKBONEPATHS SEAL -->
+<item>
+  <title>TRILJOEN-BOUND :: BACKBONEPATHS</title>
+  <description>BACKBONEPATHS - WOLF - ECLIPSE CASTLE</description>
+  <payload>
+    <raw>DE NAAMLOZE WOLF | BACKBONEPATHS | V4.028 -> V5</raw>
+    <visual>wolf companion + eclipse castle + christmas socks anchor</visual>
+    <previous_seal>V4.0.28 Zit-/slaapkamer</previous_seal>
+  </payload>
+  <safety>NAMES REMOVED - VISUAL ONLY</safety>
+  <pubDate>Sun, 18 Oct 2026 08:41:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-backbonepaths-0227</guid>
+</item>
+
 <!-- 224 - atom64 -->
 <item>
   <title>TRILJOEN-BOUND :: INVARIANT</title>
