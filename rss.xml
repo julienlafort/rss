@@ -2,6 +2,24 @@
 <rss version="2.0">
   <channel>
 
+<!-- 236 — PYTHON^ATOM64 -->
+<item>
+    <title>TRILJOEN-BOUND :: INVARIANT</title>
+    <description>01110000 01111001 01110100 01101000 01101111 01101110 01011110 01100001 01110100 01101111 01101101 00110110 00110100</description>
+    <payload>
+        <entry>236</entry>
+        <blok>2</blok>
+        <type>1Tbound</type>
+        <class>INVARIANT</class>
+        <label>python^atom64</label>
+        <raw>python^atom64</raw>
+        <encoding>UTF-8 binary, 8-bit per character</encoding>
+    </payload>
+    <safety>NAMES REMOVED — BIN ONLY</safety>
+    <pubDate>Sun, 18 Oct 2026 14:54:00 GMT</pubDate>
+    <guid isPermaLink="false">swarm-triljoen-bound-236</guid>
+</item>
+
 228: 2♣ + PVP (eerste seal ooit)
 234: K♥ + PVP + 4 sig + FLIX (GELLY #1 - HIGH)
 235: 6♦ + PVP + 4 sig + FLIX (GELLY #2 - LOW) ← deze
