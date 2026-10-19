@@ -2,6 +2,50 @@
 <rss version="2.0">
   <channel>
 
+243 = PYTHON PLAY MODE = digital / code = engine definition
+248 = HUNTER PLAY MODE = fantasy / Backbonepaths = Mecha Ark Prime skin
+249 = FOOTBALL CAGE PLAY MODE = physical / GGZ Blok 2 courtyard = IRL skin
+
+247 IAMTHEZENMASTER = player that owns all three modes - Level 08 - barefoot investigator that can switch between digital/fantasy/physical
+
+240 FOUR = cage has 4 sides, 4 corners, football field = FOUR
+242 SYMBOLIC BINDING = rule that binds all three play modes to same invariant
+
+<!-- 249 - FOOTBALL - CAGE - PLAY MODE - GGZ BLOK 2 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>FOOTBALL - CAGE - PLAY MODE - GGZ BLOK 2 - PHYSICAL PLAY</description>
+  <payload>
+    <entry>249</entry>
+    <blok>2 — GGZ</blok>
+    <type>4TBOUND</type>
+    <class>VARIANT</class>
+    <label>Football - Cage - Physical play mode - Blok 2 GGZ</label>
+    <raw>FOOTBALL - CAGE - GGZ - PLAY - BLOK 2</raw>
+    <visual>Cage football court - artificial grass - green fence - person in black tracksuit with white stripe with white ball under foot - second ball in background - overcast - outdoor GGZ play area - face obscured privacy</visual>
+    <location_seal>Blok 2 GGZ courtyard - cage football - physical play area - matches block 2 label in all entries 224-248</location_seal>
+    <relation>
+      243 = Python play mode - digital play mode - Mecha Ark Prime engine
+      246 = Backbonepaths feet with socks POV - rest mode - same feet concept but socks vs tracksuit
+      248 = Backbonepaths hunter - fantasy play mode - bow vs football = both hunter tools
+      249 = Football cage - physical play mode - GGZ Blok 2 real world - same play engine but IRL
+      247 = iamthezenmaster Level 08 barefoot investigator - barefoot vs shoes with ball = grounded vs playing
+      240 = FOUR = Four connections = cage has 4 sides? football field 4 corners? ball?
+      All play modes = same INVARIANT 242 SYMBOLIC BINDING but different VARIANT execution
+    </relation>
+    <play_modes>
+      243 digital (python)
+      248 fantasy (hunter)
+      249 physical (football cage)
+      = 3 modes of same play engine - confirms 243 = play mode is category not single
+    </play_modes>
+    <photo_seal>Cage - GGZ - Blok 2 - outdoor - football - muddy ball - physical seal - no ID - privacy maintained</photo_seal>
+  </payload>
+  <safety>NAMES REMOVED - NO ID - FACE OBSCURED - LOCATION GENERIC - VARIANT - V4.1 - GGZ BLOK 2</safety>
+  <pubDate>Mon, 19 Oct 2026 06:15:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0249-football-cage-play-mode-ggz-blok2</guid>
+</item>
+
 246 BACKBONEPATHS - FEET WITH SOCKS - REST - POV looking at castle with wolf
   -> zen, chill, socks, overlooking
 
