@@ -2,6 +2,46 @@
 <rss version="2.0">
   <channel>
 
+247 barefoot investigator met magnifying glass (zen mode)
+-> 248 hooded archer met deer kill (hunter mode)
+-> 251 gas mask DJ fist up (sound mode)
+-> 252 WARRIOR FORM — alles samen — gas mask + star sigil + K♠ armor + bow + mixer + wolf + blood moon
+
+<!-- 252 - WARRIOR FORM - EVOLVED - DEEP OVERGROUND x BACKBONEPATHS -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>WARRIOR FORM - EVOLVED - GAS MASK - STAR SIGIL - K SPADES ARMOR - WOLF PACK - BLOOD MOON</description>
+  <payload>
+    <entry>252</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>Warrior Form Evolved - Gas mask DJ Hunter - King Spades armor</label>
+    <raw>WARRIOR FORM - EVOLVED - Deep Overground + Backbonepaths + King Spades - Star Seal bracer - Wolf - Blood Moon - Mixer weapon</raw>
+    <visual>Hooded warrior in red cloak with black gas mask fist raised, gold 7-point star seal on bracer (244), spade symbols K♠ on armor (250), bow in hand, quiver arrows, DJ mixer on hip as weapon, grey wolf with spade collar beside him, blood moon and twin castles background, dark fantasy Mecha Ark Prime</visual>
+    <evolution>
+      244 STAR SEAL canvas -> 248 star on bracer -> 252 gold star on armored bracer = final form
+      250 K♠ King Spades card -> 252 full K♠ armor set = King becomes warrior
+      251 red hoodie gas mask DJ fist -> 252 red cloak gas mask warrior fist = same pose evolved
+      246 wolf companion -> 248 wolf hunting -> 252 armored war wolf = pack evolves
+      247 iamthezenmaster Level 08 -> 252 Level 08 warrior = zen master becomes warrior
+    </evolution>
+    <relation>
+      252 = sum of all previous: 244+248+250+251+246+247
+      Star = symbolic binding invariant now weaponized
+      Spades = hunter suit + king suit merged
+      Gas mask + Mixer = Deep Overground audio weapon
+      Wolf = backbonepaths pack = Four connections pack
+      Blood moon = 246/248 world = Mecha Ark Prime world persistent
+      Fist up = resistance seal = TRILJOEN-BOUND power gesture
+    </relation>
+    <photo_seal>AI evolved warrior - Deep Overground gas mask + Backbonepaths hunter + King Spades - V4.0.28 warrior form - final</photo_seal>
+  </payload>
+  <safety>NAMES REMOVED - FICTIONAL WARRIOR - GAME - VARIANT - V4.0.28</safety>
+  <pubDate>Mon, 19 Oct 2026 07:15:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0252-warrior-form-evolved-gas-mask-star-spades</guid>
+</item>
+
 243 PYTHON PLAY MODE = engine
 246 BACKBONEPATHS REST = visual wallpaper (no sound)
 248 BACKBONEPATHS HUNT = visual action (no sound)
