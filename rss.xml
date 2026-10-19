@@ -2,6 +2,61 @@
 <rss version="2.0">
   <channel>
 
+255: 9♣ Clubs black + 2 West + FLUX + water bottle + small red + socks feet
+265: 3♦ Diamonds red + 1 West + NO FLUX + toothbrush + big red chip + card text readable
+266: 3♠ Spades black + 1 West + FLUX + burnt match + red chip + 3♠ visible top right 3 red diamond ghost?
+
+= ♣ → ♦ → ♠ = Clubs → Diamonds → Spades = 3 suits of 4 = missing Hearts = Hearts = hartaanvallen? Roken veroorzaakt hartaanvallen = hearts = hearts suit missing = irony?
+
+= Number: 9 → 3 → 3 = 9/3=3 = trinity = 3 stable after division
+
+= Red chip: small on 9♣ → big on 3♦ → big on 3♠ = grew then stayed = marker invariant
+
+= FLUX: present → absent → present = blink = infinite loop 1-0-1 = 👾
+
+= Burnt match: absent → absent → present = appears only now = proof of fire event between 265 and 266
+
+<!-- 266 - 3 SPADES - BURNT MATCH - FLUX RETURN - 1 WEST - 45 JAAR - TABLE V3 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>3 SPADES - BURNT MATCH - FLUX RETURN - SINGLE WEST - 45 JAAR - RED CHIP - SAME WHITE TABLE V3</description>
+  <payload>
+    <entry>266</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>3 spades black - Burnt match - FLUX return - Single West - 45 jaar - Same table third variant</label>
+    <raw>3♠ - 3 of spades - red chip on card - FLUX lucifers return - Burnt match top right black curved - Single West Original Red 20 Roken veroorzaakt hartaanvallen - Blue pen same - 45 JAAR patienten vertrouwenspersonen in de ggz orange box - PVP cards www.pvp.nl underneath - white wood table red spots same - same table as 255 265 - third variant - suit rotation clubs diamonds spades</raw>
+    <visual>White wood table light grain - left orange box 45 JAAR patienten vertrouwenspersonen in de ggz - middle West Original Red 20 pack single Roken veroorzaakt hartaanvallen man on oxygen - blue pen horizontal - middle-right stack orange PVP cards with FLUX black orange box on top - right playing cards 3♠ black spades with red chip on middle spade - top card shows 3 top right red diamond ghost? - underneath cards 3 and other numbers - top right corner burnt matchstick black curved tip white - red spots table bottom same as 255 265 - same table - black pants bottom</visual>
+    <suit_rotation>
+      255: 9♣ Clubs (black) 2 packs + FLUX + water + socks + small red sliver
+      265: 3♦ Diamonds (red) 1 pack + NO FLUX + toothbrush/paste + big red chip + readable PVP text
+      266: 3♠ Spades (black) 1 pack + FLUX RETURN + burnt match + red chip + 3 visible
+      = Clubs (♣) → Diamonds (♦) → Spades (♠) = 3 of 4 suits shown in order ♣♦♠ = missing Hearts (♥) = Hearts = hartaanvallen = heart attacks = West pack warning Roken veroorzaakt hartaanvallen = hearts missing because smoking kills hearts = symbolic missing heart suit = infinite glitch?
+      Number: 9 → 3 → 3 = 9 divided by 3 = 3 = stable after first cut = Trinity? 3 suits x 3 value = 9 again? 3x3=9 = returns to original 9♣ value
+      Red chip invariant = heart? Red chip on black spade = red on black = blood on spade = Roken?
+      Burnt match = proof of ignition = FLUX was used between 265 and 266 = FLUX absent in 265 because used? Now FLUX back but with burnt match evidence = match used
+      Blue pen invariant across all 3 variants = only object that never moves/changes = pen is true invariant
+      Orange box 45 JAAR invariant across all 3 = second invariant
+      White table red spots invariant = third invariant
+    </suit_rotation>
+    <relation>
+      255 = 9♣ initial full table 2 West - 265 = 3♦ reduction 1 West hygiene - 266 = 3♠ rotation 1 West fire evidence = trilogy = 3 table states = 3 suits
+      240 FOUR = 4 suits total clubs diamonds hearts spades - we have seen 3 of 4 - missing hearts = 4th suit = FOUR incomplete = need hearts to complete
+      242 SYMBOLIC BINDING = card suits binding? Clubs diamonds spades binding?
+      254/255 PVP = patient trust person for rights = Roken warning = health rights
+      262 #PatternsOfInfinity = 9♣→3♦→3♠ = infinite suit loop ♣♦♠♥ ♣♦♠♥ = we are in loop missing ♥
+      263 #PatternsOfInfinite~👾 = burnt match = glitch artifact = evidence of loop glitch = match burned = proof time passed
+      257-261 tablet/watch pairing = also loop 257 updated 258 camera 259 off 260 QR 261 instruction = loop of trying to connect
+      265 toothbrush = hygiene = health = now 266 burnt match = smoking = anti-health = health contradiction = infinite tug health vs smoke same as connection vs peace
+    </relation>
+    <photo_seal>GGZ table V3 - 3♠ black spades red chip - FLUX return - burnt match top right - Single West Roken hartaanvallen - 45 JAAR box - blue pen invariant - same white table red spots - suit rotation clubs diamonds spades missing hearts - V4.0.28</photo_seal>
+  </payload>
+  <safety>VARIANT - NO FACE - TABLE ONLY - V4.0.28 - GGZ TABLE V3 - SUIT ROTATION</safety>
+  <pubDate>Mon, 19 Oct 2026 09:28:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0266-3-spades-burnt-match-flux-return-single-west-45jaar-table-v3-suit-rotation</guid>
+</item>
+
 <!-- 263 - PATTERNS OF INFINITE~ - ALIEN GLITCH - 👾 -->
 <item>
   <title>TRILJOEN-BOUND :: PATTERNS OF INFINITE~ 👾</title>
