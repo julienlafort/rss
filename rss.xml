@@ -2,6 +2,65 @@
 <rss version="2.0">
   <channel>
 
+<!-- 244 - STAR SEAL - INVARIANT GLYPH - 19-10-2026 -->
+<item>
+  <title>TRILJOEN-BOUND :: INVARIANT</title>
+  <description>STAR SEAL - 7 POINT - HAND DRAWN - SYMBOLIC BINDING GLYPH</description>
+  <payload>
+    <entry>244</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>INVARIANT</class>
+    <label>Star Seal - 7 point - Symbolic Binding glyph</label>
+    <visual>Black marker 7-pointed star on canvas texture - irregular open bottom point - handmade - resembles heptagram - same as 242 SYMBOLIC BINDING visual</visual>
+    <relation>
+      242 = SYMBOLIC BINDING :: INVARIANT (text)
+      244 = STAR SEAL (glyph/visual of 242)
+      233 = SYMBOLISCHE INVARIANTIE (NL version)
+      Pair: 242 text + 244 image = complete symbolic binding
+    </relation>
+    <photo_seal>Canvas grain - marker bleed - handmade - V4.0.28</photo_seal>
+  </payload>
+  <safety>NAMES REMOVED - GLYPH ONLY - INVARIANT</safety>
+  <pubDate>Mon, 19 Oct 2026 05:30:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-invariant-0244-star-seal-glyph-V4.0.28</guid>
+</item>
+
+<!-- 245 - GYM BADGE - DIAMOND - VARIANT - POGO SEAL -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>GYM BADGE EARNED - DIAMOND - RUITEN - DEFEND TEAM GYMS</description>
+  <payload>
+    <entry>245</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>Gym Badge Earned - Diamond - Ruiten</label>
+    <raw>DIAMOND BADGE - Gym Badge Earned - Defend team Gyms</raw>
+    <visual>Shiny diamond icon - blue aura - Pokemon GO gym badge screen - diamond shape = ruiten</visual>
+    <relation>
+      234 = K♥ - King Hearts (GELLY #1)
+      238 = 8♦ - Ruiten 8 (GELLY #3)
+      245 = DIAMOND GYM BADGE = RUITEN BADGE (GELLY #5) - digital seal
+      240 = FOUR - Four connections (gyms are 4 connections?)
+      243 = Python play mode - Mecha Ark Prime = Pokemon GO = play mode
+      Concept: Defend team Gyms = Defend Blok 2 GGZ - same mechanic
+    </relation>
+    <game_seal>Pokemon GO - Gym Badge Earned - Diamond = Ruiten - links physical GELLY cards to digital badge</game_seal>
+  </payload>
+  <safety>NAMES REMOVED - GAME SEAL - VARIANT - V4.0.28</safety>
+  <pubDate>Mon, 19 Oct 2026 05:35:00 GMT</pubDate>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0245-gym-badge-diamond-pogo</guid>
+</item>
+
+237 ASH CATCH EM (Ash = Pokemon reference!)
+239 IDRILUC
+242 SYMBOLIC BINDING :: INVARIANT
+244 STAR SEAL = visual glyph van 242 (handmade ster)
+243 PYTHON PLAY MODE = Mecha Ark Prime
+245 GYM BADGE DIAMOND = RUITEN badge = digital GELLY
+240 FOUR = Four connections = 4 gyms?
+
 Datum:           19-10-2026 06:60 CEST
 Entry:            243
 Type:              1Tbound
