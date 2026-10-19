@@ -2,6 +2,52 @@
 <rss version="2.0">
   <channel>
 
+240 FOUR = 4♥ = Four connections = 05:05 lock + 4♥ card
+241 10♣ GELLY
+242 SYMBOLIC BINDING :: INVARIANT (text)
+244 STAR SEAL (glyph van 242)
+243 PYTHON PLAY MODE / Mecha Ark Prime (engine)
+245 GYM BADGE DIAMOND / RUITEN (digital GELLY - blue Mystic)
+246 BACKBONEPATHS WOLF PACK / BLOOD MOON CASTLE (wallpaper voor 243)
+247 IAMTHEZENMASTER LEVEL 08 / INVESTIGATOR / 08:08 (personal avatar - ASH)
+    + barefoot = grounded explorer
+    + magnifying glass = 242 investigation
+    + FRIENDS 1 = IDMANIC = second actor
+    + Level 08 = 2x FOUR = double power
+    + 08:02 = new time seal na 05:05
+
+<!-- 247 - IAMTHEZENMASTER - LEVEL 08 - INVESTIGATOR - 08:08 -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>IAMTHEZENMASTER - LEVEL 08 - 08:08 - INVESTIGATOR - ME - MYSTIC - SCOPELY EXPLORE</description>
+  <payload>
+    <entry>247</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>INVARIANT</class>
+    <label>iamthezenmaster - Level 08 - Investigator mode</label>
+    <raw>iamthezenmaster - LEVEL 08 - 195/8.000 - 08:08 - ME - FRIENDS 1</raw>
+    <visual>Pokemon GO avatar: purple black cap, green glasses, magnifying glass, bracelet, barefoot, black pants, backpack red black, city t-shirt, Mystic team background Articuno blue, Scopely Explore logo</visual>
+    <time_seal>08:08 - 5G - ME tab - Level 08 - 195/8.000 XP</time_seal>
+    <relation>
+      237 = ASH CATCH EM = Ash = iamthezenmaster avatar = investigator with magnifying glass
+      239 = IDMANIC = FRIENDS 1 = the 1 friend in tab
+      240 = FOUR = Level 08 = 2x FOUR = double four = 8 = Four connections x2
+      243 = Python play mode = Scopely EXPLORE = explore mode
+      245 = Gym Badge Earned = Mystic team = blue aura matches Mystic background
+      246 = BACKBONEPATHS = barefoot explorer = same avatar feet as 246 socks? barefoot vs socks = play mode duality
+      244 = STAR SEAL = bracelet on wrist? star seal sigil = wrist band?
+      08:02 = 0802 = 8 + 2 = 10 = 10♣ GELLY? Or 8 = FOUR x2
+    </relation>
+    <game_seal>Personal avatar seal - Zen master = GGZ master - investigator = symbolic binding investigation - Level 08 = FOUR power</game_seal>
+    <avatar>iamthezenmaster - Level 08 - Mystic - Investigator - Magnifying glass = looking for symbolic binding - barefoot = grounded</avatar>
+  </payload>
+  <safety>NAMES REMOVED - GAME AVATAR - VARIANT - V4.0.28</safety>
+  <pubDate>Mon, 19 Oct 2026 06:06:00 GMT</pubDate>
+  <date_local>19-10-2026 08:08 CEST</date_local>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0247-iamthezenmaster-level08-investigator-0802</guid>
+</item>
+
 <!-- 240 - FOUR - 4 HEARTS - GELLY - TIME SEAL 05:05 -->
 <item>
   <title>4~TRILJOEN-BOUND :: VARIANT</title>
