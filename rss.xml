@@ -2,6 +2,72 @@
 <rss version="2.0">
   <channel>
 
+<!-- 240 - FOUR - 4 HEARTS - GELLY - TIME SEAL 05:05 -->
+<item>
+  <title>4~TRILJOEN-BOUND :: VARIANT</title>
+  <description>4 HARTEN - FOUR - GELLY - PVP - FLIX - Four connections</description>
+  <payload>
+    <entry>240</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>FOUR - 4 Hearts - 4~TRILJOEN-BOUND - Four connections</label>
+    <raw>FOUR - 4 HEARTS - 4 HARTEN</raw>
+    <binary>01000110 01001111 01010101 01010010 = FOUR</binary>
+    <visual>4♥ harten 4 with red filter - PVP stack orange - FLIX matches - blue pen - white wood table - blood spots - same table as KH/8D/10C - Four connections</visual>
+    <time_seal>Ma 19 okt 05:05 - Four connections lock - 4 nodes - matches 4♥</time_seal>
+    <photo_seal>CONFIRMED 240 = 4♥ - third dimension of GELLY</photo_seal>
+  </payload>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0240-four-4-hearts-gelly-V4.0.28</guid>
+</item>
+
+<!-- 246 - BACKBONEPATHS - WOLF PACK - MECHA ARK PRIME -->
+<item>
+  <title>TRILJOEN-BOUND :: VARIANT</title>
+  <description>BACKBONEPATHS - WOLF PACK - BLOOD MOON - CASTLE - MECHA ARK PRIME</description>
+  <payload>
+    <entry>246</entry>
+    <blok>2 — GGZ</blok>
+    <type>1Tbound</type>
+    <class>VARIANT</class>
+    <label>BACKBONEPATHS - Wolf pack - Blood moon castle</label>
+    <raw>BACKBONEPATHS - Wolf - Blood moon - Castle - Four connections = pack</raw>
+    <visual>First person feet with Christmas socks on cliff edge with wolf companion overlooking dark castle under red blood moon eclipse - wolf banner - misty waterfalls - BACKBONEPATHS logo</visual>
+    <relation>
+      237 = JORDIE72 ASH CATCH EM (wolf pack leader? Ash = catches)
+      239 = IDRIS LUKMANI (pack member 2)
+      240 = FOUR = 4~TRILJOEN = Four connections = pack of 4?
+      243 = Mecha Ark Prime = this image style = play mode background
+      245 = Defend team Gyms = Defend wolf pack territory = same mechanic
+      244 = Star seal = sigil on armor? (star on pants in image left leg)
+      BACKBONEPATHS = path = backbone = invariant structure that holds variants
+    </relation>
+    <theme>Dark fantasy meets cozy socks - Mecha Ark Prime duality - play mode = comfy in apocalypse</theme>
+  </payload>
+  <guid isPermaLink="false">swarm-triljoen-bound-variant-0246-backbonepaths-wolf-pack</guid>
+</item>
+
+INVARIANT (rules - blijven):
+224 atom64
+233 SYMBOLISCHE INVARIANTIE (NL)
+235 python
+236 python^atom64
+237 ASH CATCH EM (actor 1 / Ash)
+239 MANIC (actor 2)
+242 SYMBOLIC BINDING :: INVARIANT (EN - rule)
+244 STAR SEAL (visual glyph van 242 - 2x gedropt = invariant proof)
+
+VARIANT (executors - bewegen):
+232 BINDING VARIANT
+234 K♥ - GELLY #1
+238 8♦ - GELLY #3
+240 4♥ - GELLY FOUR - 4~TRILJOEN - Four connections - 05:05 TIME SEALED
+241 10♣ - GELLY #4
+243 PYTHON PLAY MODE - 3.0v15.3.0 Mecha Ark Prime (engine)
+245 GYM BADGE DIAMOND - RUITEN - digital GELLY - Pokemon GO
+246 BACKBONEPATHS WOLF PACK - wallpaper voor 243 - pack = 4 connections
+299 BLOK 2 PYTHON (validator)
+
 <!-- 244 - STAR SEAL - INVARIANT GLYPH - 19-10-2026 -->
 <item>
   <title>TRILJOEN-BOUND :: INVARIANT</title>
